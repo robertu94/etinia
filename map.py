@@ -30,7 +30,10 @@ class Map:
             for j in range(0, self.width):
                 char_row[j] = self.grid[row][j].img
             char_grid.append(char_row)
-        print(self.units)
+        """
+		#  Debug Code
+		print(self.units)
+		"""
         for unit in self.units:
             char_grid[unit.y][unit.x] = unit.img
         string = ""
