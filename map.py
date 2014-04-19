@@ -45,3 +45,8 @@ class Map:
     def add_unit(self, unit):
         """Add a character to the map"""
         self.units.append(unit)
+	def move_valid(self,x,y,mover):
+	    return ((x<self.width and x >=0) and (y<self.height and y >=0 ))
+		for unit in self.units:
+		   if(unit.x == x and unit.y==y and unit != mover) return false
+		return true
