@@ -28,7 +28,7 @@ class Map:
         for row in range(0, self.height):
             char_row = [None] * self.width
             for j in range(0, self.width):
-                char_row[j] = self.grid[row][j].symbol
+                char_row[j] = self.grid[row][j].img
             char_grid.append(char_row)
         print(self.units)
         for unit in self.units:
