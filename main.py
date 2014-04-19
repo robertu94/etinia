@@ -2,19 +2,24 @@
 
 from tkinter import *
 from map import Map
+from character import Character
 
 world = Map(7, 5)
+hero = Character(2, 5)
+world.add_unit(hero)
 
 
 def key_pressed(event):
     if event.keysym == "Left":
-        v.set("Left")
+        world.units[0].x -= 1
     if event.keysym == "Right":
-        v.set("Right")
+        world.units[0].x += 1
     if event.keysym == "Up":
-        v.set("Up")
+        world.units[0].y -= 1
     if event.keysym == "Down":
-        v.set("Down")
+        world.units[0].y += 1
+    v.set(str(world))
+
 
 def key_released(event):
     if event.keysym == "Left":

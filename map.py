@@ -3,13 +3,12 @@ from character import Character
 
 
 class Map:
-    grid = [[0]]  # array of Tile
-    units = [Character]
 
     def __init__(self, height, width):
         self.height = height
         self.width = width
         self.grid = [[Tile() for x in range(width)] for x in range(height)]
+        self.units = []
 
     @staticmethod
     def load(filename):
@@ -31,12 +30,15 @@ class Map:
             for j in range(0, self.width):
                 char_row[j] = self.grid[row][j].symbol
             char_grid.append(char_row)
+        print(self.units)
         for unit in self.units:
-            pass
-            #  TODO char_grid[unit.y][unit.x] = unit.symbol
+            char_grid[unit.y][unit.x] = unit.img
         string = ""
         for row in char_grid:
             string += "".join(row)
             string += "\n"
         return string
 
+    def add_unit(self, unit):
+        """Add a character to the map"""
+        self.units.append(unit)

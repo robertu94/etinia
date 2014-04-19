@@ -14,7 +14,9 @@ class Character:
         self.abilities = [0]  # list of abilities to be expanded once the abilities class is created using int for now
         self.equipment = [0]  # list of equipment to be expanded once the item class is created using int for now
         self.items = [0]  # list of non-equipped items to be expanded once the item class is finished
-    def load( savefile ):
+
+    @staticmethod
+    def load(savefile):
         """Takes in a line from the save file that contians the information about the character
            Format:  x y will strength defense speed exp gold skills equipment
         """
@@ -27,7 +29,7 @@ class Character:
         savefile += (str(self.x)) + " "
         savefile += (str(self.y)) + " "
         savefile += (str(self.will)) + " "
-        savefile += (str(self.strength)) +  " "
+        savefile += (str(self.strength)) + " "
         savefile += (str(self.defense)) + " "
         savefile += (str(self.speed)) + " "
         savefile += (str(self.exp)) + " "
