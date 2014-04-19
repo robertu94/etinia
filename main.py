@@ -1,28 +1,32 @@
 #!/usr/bin/python3
 
 from tkinter import *
+from map import Map
 
-def keyPressed(event):
-    if(event.keysym == "Left"):
+world = Map(7, 5)
+
+
+def key_pressed(event):
+    if event.keysym == "Left":
         v.set("Left")
-    if(event.keysym == "Right"):
+    if event.keysym == "Right":
         v.set("Right")
-    if(event.keysym == "Up"):
+    if event.keysym == "Up":
         v.set("Up")
-    if(event.keysym == "Down"):
+    if event.keysym == "Down":
         v.set("Down")
 
-def keyReleased(event):
-    if(event.keysym == "Left"):
+def key_released(event):
+    if event.keysym == "Left":
         v.set("Nada")
 
 root = Tk()
 root.resizable(width=FALSE, height=FALSE)
 
 v = StringVar()
-v.set("This is a super long starting string that \nwon't possibly fit but is instead a test to see how tkinter handles wrapping\nWow that was just a \\n. Amazing!")
-w = Label(root, textvariable=v, height=24, width=80, bg="black", fg="white", font=("DejaVu Sans Mono", 12))
+v.set(str(world))
+w = Label(root, textvariable=v, height=24, width=80, bg='black', fg='white', font=("DejaVu Sans Mono", 12))
 w.pack()
 
-root.bind_all('<Key>', keyPressed)
+root.bind_all('<Key>', key_pressed)
 root.mainloop()
