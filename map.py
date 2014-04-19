@@ -1,3 +1,4 @@
+from tile import Tile
 from character import Character
 
 
@@ -8,7 +9,7 @@ class Map:
     def __init__(self, height, width):
         self.height = height
         self.width = width
-        self.grid = [['A' for x in range(width)] for x in range(height)]
+        self.grid = [[Tile() for x in range(width)] for x in range(height)]
 
     @staticmethod
     def load(filename):
@@ -20,7 +21,7 @@ class Map:
         for row in range(0, height):
             row_string = file.readline()
             for j in range(0, width):
-                temp_map.grid[row][j] = row_string[j]
+                temp_map.grid[row][j] = Tile(row_string[j])
         return temp_map
 
     def __str__(self):
@@ -28,7 +29,7 @@ class Map:
         for row in range(0, self.height):
             char_row = [None] * self.width
             for j in range(0, self.width):
-                char_row[j] = self.grid[row][j]  # TODO .get character
+                char_row[j] = self.grid[row][j].symbol
             char_grid.append(char_row)
         for unit in self.units:
             pass
