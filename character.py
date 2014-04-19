@@ -1,29 +1,19 @@
 class Character:
-    img
-    will
-    strength
-    defense
-    speed
-    exp
-    gold
-    skill # list of skills
-    abilities # list of abilities
-    equipment # list of equipment
- 
     # default constructor
-    def __init__(self):
-        self.will = 6
-        self.strenght = 0
-        self.defense = 0
-        self.speed = 0
-        self.img = "@"
     # manual constructor
-    def __init__(self, a, b, c, d, e):
-       self.will = a
-       self.strength = b
-       self.defense = c
-       self.speed = d
-       self.img = e
+    def __init__(self, x=0, y=0, will=6, strength=0, defense=0, speed=0, img="@", gold=0, exp=0):
+       self.x = x
+       self.y = y
+       self.img = img
+       self.will = will
+       self.strength = strength
+       self.defense = defense
+       self.speed = speed
+       self.exp = exp
+       self.gold = gold
+       self.skill = [0] # list of skills
+       self.abilities = [0] # list of abilities
+       self.equipment = [0] # list of equipment
     '''
        TODO
        Create method to import and construct the skill classes
@@ -33,7 +23,7 @@ class Character:
        Create methods to modify the equipment list
        Create method to serialize the file
        Create method to deserialize the file
- 
+       Create method to level up the hero to spend skill points
     '''
 
         
