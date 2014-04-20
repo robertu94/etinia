@@ -6,7 +6,7 @@ class Tile:
         self.effect = effect
         self.walkable = walkable
     @staticmethod
-    def load(self, a):
+    def load( a):
         datafile =  open("tile.dat", "r", encoding='utf-8')
         n = int(datafile.readline())
         s = ""
