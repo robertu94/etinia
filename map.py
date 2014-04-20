@@ -31,9 +31,9 @@ class Map:
                 char_row[j] = self.grid[row][j].img
             char_grid.append(char_row)
         """
-		#  Debug Code
-		print(self.units)
-		"""
+        #  Debug Code
+        print(self.units)
+        """
         for unit in self.units:
             char_grid[unit.y][unit.x] = unit.img
         string = ""
@@ -45,8 +45,13 @@ class Map:
     def add_unit(self, unit):
         """Add a character to the map"""
         self.units.append(unit)
-	def move_valid(self,x,y,mover):
-	    return ((x<self.width and x >=0) and (y<self.height and y >=0 ))
-		for unit in self.units:
-		   if(unit.x == x and unit.y==y and unit != mover) return false
-		return true
+    def valid_move(self, x, y, mover):
+        """Returns if the attempted move is a valid move"""
+        if (not ((x<self.width and x >=0) and (y<self.height and y >=0 ))):
+            return False 
+        if (not self.grid[y][x].walkable):
+            return False
+        for unit in self.units:
+            if(unit.x == x and unit.y==y and unit != mover):
+                return False
+        return True

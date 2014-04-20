@@ -36,10 +36,10 @@ class Character:
         savefile += (str(self.gold)) + " "
         savefile += (str(self.skill)) + " "
         return savefile
-    def move (x,y):
-	   """Update the characters position"""
-	   self.x = x
-	   self.y = y
+    def move (self, x, y):
+       """Update the characters position"""
+       self.x = x
+       self.y = y
     """
     TODO
     Create method to import and construct the skill classes
