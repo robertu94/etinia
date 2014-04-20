@@ -45,13 +45,14 @@ class Map:
     def add_unit(self, unit):
         """Add a character to the map"""
         self.units.append(unit)
+
     def valid_move(self, x, y, mover):
         """Returns if the attempted move is a valid move"""
-        if (not ((x<self.width and x >=0) and (y<self.height and y >=0 ))):
+        if not (0 <= x < self.width and 0 <= y < self.height):
             return False 
-        if (not self.grid[y][x].walkable):
+        if not self.grid[y][x].walkable:
             return False
         for unit in self.units:
-            if(unit.x == x and unit.y==y and unit != mover):
+            if unit.x == x and unit.y == y and unit != mover:
                 return False
         return True

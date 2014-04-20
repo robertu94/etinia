@@ -7,20 +7,22 @@ from character import Character
 world = Map(7, 5)
 hero = Character(2, 5)
 world.add_unit(hero)
-world.add_unit(Character(3,5))
+world.add_unit(Character(3, 5))
+
+
 def key_pressed(event):
     if event.keysym == "Left":
-        if (world.valid_move(world.units[0].x -1 ,world.units[0].y, world.units[0])):
-            world.units[0].move (world.units[0].x-1, world.units[0].y)
+        if world.valid_move(world.units[0].x -1, world.units[0].y, world.units[0]):
+            world.units[0].move(world.units[0].x-1, world.units[0].y)
     if event.keysym == "Right":
-        if (world.valid_move(world.units[0].x +1 ,world.units[0].y, world.units[0])):
-            world.units[0].move (world.units[0].x+1, world.units[0].y)
+        if world.valid_move(world.units[0].x +1, world.units[0].y, world.units[0]):
+            world.units[0].move(world.units[0].x+1, world.units[0].y)
     if event.keysym == "Up":
-        if (world.valid_move(world.units[0].x ,world.units[0].y-1, world.units[0])):
-            world.units[0].move (world.units[0].x, world.units[0].y -1 )
+        if world.valid_move(world.units[0].x, world.units[0].y-1, world.units[0]):
+            world.units[0].move(world.units[0].x, world.units[0].y -1 )
     if event.keysym == "Down":
-        if (world.valid_move(world.units[0].x  ,world.units[0].y+1, world.units[0])):
-            world.units[0].move (world.units[0].x, world.units[0].y+1)
+        if world.valid_move(world.units[0].x, world.units[0].y+1, world.units[0]):
+            world.units[0].move(world.units[0].x, world.units[0].y+1)
     v.set(str(world))
 
 
