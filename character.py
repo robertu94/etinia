@@ -1,5 +1,5 @@
 class Character:
-    def __init__(self, x=0, y=0, will=6, strength=0, defense=0, speed=0, img="@", gold=0, exp=0):
+    def __init__(self, x=0, y=0, will=6, strength=0, defense=0, speed=0, img="@", gold=0, exp=0,team = 0):
         """Create the base character Class"""
         self.x = x
         self.y = y
@@ -10,6 +10,7 @@ class Character:
         self.speed = speed
         self.exp = exp
         self.gold = gold
+        self.team = team
         self.skill = [0]  # list of skills to be expanded once the skills class is created using int for now
         self.abilities = [0]  # list of abilities to be expanded once the abilities class is created using int for now
         self.equipment = [0]  # list of equipment to be expanded once the item class is created using int for now
@@ -33,6 +34,7 @@ class Character:
         savefile += (str(self.defense)) + " "
         savefile += (str(self.speed)) + " "
         savefile += (str(self.exp)) + " "
+        savefile += (str(self.team)) + " "
         savefile += (str(self.gold)) + " "
         savefile += (str(self.skill)) + " "
         return savefile
