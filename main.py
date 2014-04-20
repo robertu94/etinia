@@ -6,9 +6,9 @@ from character import Character
 from mapcontroller import MapController
 
 world = Map(7, 5)
-hero = Character(2, 5)
+hero = Character(0,2, 5, team=1)
 world.add_unit(hero)
-world.add_unit(Character(3, 5))
+world.add_unit(Character(1, 3, 5))
 map_controller = MapController(world)
 
 

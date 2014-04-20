@@ -1,6 +1,7 @@
 class Character:
-    def __init__(self, x=0, y=0, will=6, strength=0, defense=0, speed=0, img="@", gold=0, exp=0,team = 0):
+    def __init__(self,idval, x=0, y=0, will=6, strength=0, defense=0, speed=0, img="@", gold=0, exp=0,team = 0):
         """Create the base character Class"""
+        self.idval = idval
         self.x = x
         self.y = y
         self.img = img
@@ -27,6 +28,7 @@ class Character:
         """Converts the character to a string for easy saving"""
         savefile = ""
         savefile += self.img + " "
+        savefile += (str(self.idval)) + ""
         savefile += (str(self.x)) + " "
         savefile += (str(self.y)) + " "
         savefile += (str(self.will)) + " "
@@ -43,6 +45,8 @@ class Character:
         """Update the characters position"""
         self.x = x
         self.y = y
+    def compute_init(rnd):
+        return rnd + self.speed
     """
     TODO
     Create method to import and construct the skill classes
