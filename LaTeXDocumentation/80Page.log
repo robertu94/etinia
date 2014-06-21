@@ -1,0 +1,1377 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  5 JUN 2014 21:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**80Page.tex
+(./80Page.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count90
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count91
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count92
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count98
+\mult@box=\box26
+\multicol@leftmargin=\dimen107
+\c@unbalance=\count99
+\c@collectmore=\count100
+\doublecol@number=\count101
+\multicoltolerance=\count102
+\multicolpretolerance=\count103
+\full@width=\dimen108
+\page@free=\dimen109
+\premulticols=\dimen110
+\postmulticols=\dimen111
+\multicolsep=\skip44
+\multicolbaselineskip=\skip45
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count104
+\c@finalcolumnbadness=\count105
+\last@try=\dimen112
+\multicolovershoot=\dimen113
+\multicolundershoot=\dimen114
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count106
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count107
+\Gm@cntv=\count108
+\c@Gm@tempcnt=\count109
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count110
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen123
+\extrarowheight=\dimen124
+\NC@list=\toks16
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+\everycr=\toks17
+\minrowclearance=\skip48
+)
+\rownum=\count111
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen125
+\TX@old@table=\dimen126
+\TX@old@col=\dimen127
+\TX@target=\dimen128
+\TX@delta=\dimen129
+\TX@cols=\count112
+\TX@ftn=\toks18
+)
+\@indexfile=\write3
+\openout3 = `80Page.idx'.
+
+
+Writing index file 80Page.idx
+(./80Page.aux)
+\openout1 = `80Page.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+\AtBeginShipoutBox=\box52
+Package hyperref Info: Link coloring OFF on input line 46.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count113
+)
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
+
+(./80Page.out) (./80Page.out)
+\@outlinefile=\write4
+\openout4 = `80Page.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: twoside 
+* h-part:(L,W,R)=(47.69846pt, 287.86171pt, 47.69846pt)
+* v-part:(T,H,B)=(72.26999pt, 491.43622pt, 50.58879pt)
+* \paperwidth=397.48499pt
+* \paperheight=614.295pt
+* \textwidth=287.86171pt
+* \textheight=491.43622pt
+* \oddsidemargin=-10.34517pt
+* \evensidemargin=-24.57153pt
+* \topmargin=-30.06749pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen130
+\scratchbox=\box53
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen131
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks20
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 49.
+ [1
+
+
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+] (./80Page.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+ [3] [4]
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [5])
+\tf@toc=\write5
+\openout5 = `80Page.toc'.
+
+ [6]
+Chapter 1.
+[1
+
+
+] [2]
+Overfull \hbox (8.69432pt too wide) in paragraph at lines 80--89
+\OT1/cmr/m/n/10 ent skill trees: At-tack,Defense,Knowledge,Magic,Mechanics,Anci
+ents
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 92--108
+
+ []
+
+
+Overfull \hbox (8.0069pt too wide) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/10 Attack/Defense| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/10 Legendary
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+[]|\OT1/cmr/m/n/10 Weapon gains and ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+\OT1/cmr/m/n/10 di-tional type at-tribute
+ []
+
+
+Underfull \vbox (badness 5203) has occurred while \output is active []
+
+ [5]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Overfull \hbox (42.80562pt too wide) in paragraph at lines 183--190
+\OT1/cmr/m/n/10 There are 4 at-tributes: Strength,Speed,Defense,and Will.Streng
+th,Speed,and
+ []
+
+
+Overfull \hbox (23.58336pt too wide) in paragraph at lines 192--201
+\OT1/cmr/m/n/10 stop Lo-ca-tion: where the weapon is equipped: helm,foot,chest,
+hand,dual
+ []
+
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 192--201
+\OT1/cmr/m/n/10 hand El-e-men-tal Af-fil-i-a-tion: what el-e-men-tal type of da
+m-age a weapon
+ []
+
+[6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 204.
+
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [7] [8
+
+]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Underfull \vbox (badness 5563) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+[10]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+[13]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+
+Underfull \hbox (badness 6364) in paragraph at lines 297--297
+[]|\OT1/cmr/m/n/10 summon crea-ture worth 3 points (10 dif-fi-
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 297--297
+[]|\OT1/cmr/m/n/10 Summon crea-ture worth 10 points (12 dif-fi-
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 297--297
+[]|\OT1/cmr/m/n/10 Summon crea-ture worth 20 points (14 dif-fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+Underfull \vbox (badness 6220) has occurred while \output is active []
+
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 314--314
+[]|\OT1/cmr/m/n/10 Shift 1(move one at-tribute point from at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Ω in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Ω in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Ω in font cmr10!
+
+Underfull \hbox (badness 2326) in paragraph at lines 338--338
+[]|\OT1/cmr/m/n/10 Muster (In-ter-rupt ini-tia-tive and take  moves
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+Underfull \vbox (badness 1609) has occurred while \output is active []
+
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+
+ []
+
+
+Underfull \vbox (badness 4569) has occurred while \output is active []
+
+ [26]
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
+[27]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+[28]
+Chapter 3.
+
+Overfull \hbox (0.95367pt too wide) in paragraph at lines 387--388
+\OT1/cmr/m/n/10 The Whisps are an-drog-y-nous. They re-pro-duce by bud-ding. Wh
+isps
+ []
+
+[29
+
+]
+Underfull \vbox (badness 2990) has occurred while \output is active []
+
+ [30]
+[31]
+Overfull \hbox (4.2962pt too wide) in paragraph at lines 408--409
+\OT1/cmr/m/n/10 greater im-por-tance on the com-mu-nity. This means while the W
+hisps
+ []
+
+[32]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [33]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [34]
+[35]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [36]
+[37]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [38] [39] [40]
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no Ä in font cmsl10!
+Missing character: There is no ô in font cmsl10!
+ [41]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [42]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no Ä in font cmsl10!
+Missing character: There is no ô in font cmsl10!
+ [43]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [44]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [45] [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+[48] [49]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [50] [51]
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [52]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--654
+
+ []
+
+[53] [54]
+Chapter 4.
+[55
+
+] [56]
+Appendix A.
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 749--751
+
+ []
+
+[57
+
+]
+Overfull \hbox (48.2039pt too wide) in paragraph at lines 771--776
+\OML/cmm/m/it/10 specific[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Specific[] \OT1/
+cmr/m/n/10 + \OML/cmm/m/it/10 card[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Attack[
+]$ $Attack[]odifiers \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (44.8365pt too wide) in paragraph at lines 771--776
+\OML/cmm/m/it/10 status[]ffects \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 flanking \OT
+1/cmr/m/n/10 + \OML/cmm/m/it/10 elemental[]onus$ $DefenceValue \OT1/cmr/m/n/10 
+= (2\OML/cmm/m/it/10 xDefence\OT1/cmr/m/n/10 ) +
+ []
+
+
+Overfull \hbox (14.92215pt too wide) in paragraph at lines 771--776
+\OML/cmm/m/it/10 Armor[]tat \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Helm[]tat \OT1/c
+mr/m/n/10 + \OML/cmm/m/it/10 Foot[]tat \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Weapo
+n[]efence \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Specific[]kill \OT1/cmr/m/n/10 +
+ []
+
+[58] [59]
+Overfull \hbox (41.56964pt too wide) in paragraph at lines 820--820
+[]\OT1/cmr/bx/n/14.4 SUPPLY/REINFORCEMENTS DROPS 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[60]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Overfull \hbox (5.95122pt too wide) in paragraph at lines 845--845
+[]\OT1/cmr/bx/n/14.4 OBJECTIVE BASED FEA-TURES 
+ []
+
+[61]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Overfull \hbox (17.89948pt too wide) in paragraph at lines 860--860
+[]\OT1/cmr/bx/n/14.4 EXPERIENCE POINTS AND LEV-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--865
+
+ []
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 891--900
+
+ []
+
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Ω in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Ω in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Ω in font cmr10!
+
+Underfull \hbox (badness 1082) in paragraph at lines 934--934
+[]|\OT1/cmr/m/n/10 Target deals dam-age x2 but suf-fers
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 934--934
+\OT1/cmr/m/n/10 Each time this is used suc-ces-sively
+ []
+
+[63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+Overfull \vbox (161.26653pt too high) has occurred while \output is active []
+
+
+[65] [66]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 995--996
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Underfull \hbox (badness 2020) in paragraph at lines 1024--1024
+\OT1/cmr/m/n/10 tions by tak-ing all count-
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 1024--1024
+[]|\OT1/cmr/m/n/10 Decreases buff/debuff du-ra-
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1024--1024
+\OT1/cmr/m/n/10 tions by mak-ing all count
+ []
+
+
+Overfull \hbox (45.84294pt too wide) in paragraph at lines 1024--1024
+[]|$\OML/cmm/m/it/10 Wood=Stone=Ore=Gem=Processenium$| 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no É in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1026
+
+ []
+
+
+Overfull \hbox (36.9328pt too wide) in paragraph at lines 1027--1027
+[]\OT1/cmr/bx/n/14.4 REFERENCE TA-BLES AND GUIDES 
+ []
+
+[68] [69] [70
+
+] (./80Page.ind [71
+
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1031.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1031.
+ (./80Page.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1031.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1031.
+
+Package rerunfilecheck Info: File `80Page.out' has not changed.
+(rerunfilecheck)             Checksum: 1FBF0F237E5BF2101B561C900FC42823;7989.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1031.
+ ) 
+Here is how much of TeX's memory you used:
+ 6433 strings out of 493315
+ 92213 string characters out of 6137904
+ 205179 words of memory out of 5000000
+ 9505 multiletter control sequences out of 15000+600000
+ 9806 words of font info for 34 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 41i,11n,37p,2410b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on 80Page.pdf (77 pages, 288046 bytes).
+PDF statistics:
+ 1260 PDF objects out of 1440 (max. 8388607)
+ 1158 compressed objects within 12 object streams
+ 356 named destinations out of 1000 (max. 500000)
+ 1041 words of extra memory for PDF output out of 10000 (max. 10000000)
+
