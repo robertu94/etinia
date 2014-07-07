@@ -1,0 +1,391 @@
+\chapter{SKILLS}
+%\begin{multicols}{2}
+\section{BASIC ABILITIES}
+\textbf{Defaulting:} Use an basic action with -5 modifier\\
+\textbf{Basic Attack :} range 1 \\
+\textbf{Basic Long Range Attack :} range 2 not 1; additional -3 modifier\\
+\textbf{Move: } move 1 space; failless\\
+
+\section{Attack Tree}
+\skill{Close Combat}{Long Cut and Wide Cut}{Spin Cut}{Stab (sword inflict
+bleeding) and Life cut}{Shock Wave}{Wide Wave and Great Spin}{Storm of Blades
+(Spin Cut inflict bleeding)}
+
+\skill{Long Range}{Bow shot (target a line; hit nearest object; range 5 squares
+orthogonal) and Arc Shot (target one tile up to 3 spaces away from
+user)}{Modify hitbox on bow shot V shot and wide shot and Shotgun Spread
+(triangle of height 2)}{Focus (Status; Duration 2; increase range of long range
+by 2)}{Spreader Shot}{Barrage 2 (fire two shots; -5 modifier to both
+shots)}{Use two abilities from this tree in one move at -8 modifier each}
+\textit{Long Range cannot target adjacent objects}
+
+\skill{Melee}{Punch (short sword + knockback) and Kick (wide)}{Grab - pulls a
+player from unto 2 panels away to player}{(Throws may be used in the same
+action as grab) Far throw (knockback 2) and High Throw (paralyze)Down
+Throw(damage)}{ Combo Strike(2 abilities from melee)+3 knock back for far
+throw}{Combo Strike (3 abilities from melee,-5 to hit for each attack in
+chain)}{passive ends the turn immediately when this player is attacked even if
+during a chain attack}
+
+\skill{Light Combat}{"Quick Attack" +1 initiative next turn}{move and
+attack}{"Stab" inflict bleeding}{"Throw Knife" allows long range attack}{ignore
+abilities of targets allies during this attack}{Unit may attack an adjacent foe
+once per round as a free action}
+
+\skill{Overdrive}{Berserk Mode +5 modifiers for 3 turns; then,take 1
+damage}{passive deal a Critical Hit for Two J+ in addition to a joker}{Super
+Mode- charge for 1 turn then +5 modifier for 3 turns}{Finisher (do 2 damage to
+foes with Debuffs)}{Charge for 5 turns; Activate Final Form (Max Attributes; if
+damage $>1$,damage $-1$)}{All attacks are Critical Hits when the hero is at
+1hp}
+
+\skill{Dexterity}{Aim- draw an extra card and choose highest}{Aim to Status
+Shot (3 turns buff/ Debuff)}{$+1$ hand (passive)}{Aim to Power Shot (2
+damage)}{Aim to Trick Shot - do a close combat attack after arc shot}{On Joker
+ignore armor}
+
+\skill{Precision}{Pick Locks}{Steal equipped items}{create decoy [follow
+pacifist AI]}{+5 to all flanking bonuses}{Create Shadow Clone [duplicates
+actions of main]}{create 2 shadow clone}
+
+\skill{Attack Improvisation}{Short Range to Long Range and Long Range to Short
+Range}{Defense to Short Range and Defense to Long Range}{Short Range to Defense
+Long Range to Defense}{Weapon to Special and Special to Weapon}{Dual Handed -
+use two weapons while attacking}{Melee to Long Range, Melee to Short
+Range,Melee to Defense}
+
+\section{DEFENSE TREE}
+\skill{Shield}{ Block - protects user}{Block: protects user (passive)}{Cover
+Ally - protects targeted adjacent ally with shield}{Cover Allies - Protects all
+adjacent allies}{Cover all - Protects all adjacent allies (passive; optional;
+pre-flex)}{Replace all references in shield to "adjacent" with up to 2 spaces
+away}
+
+\skill{Stealth}{Avoid Sight: can be seen only when adjacent until action
+(Status duration 3)}{Surprise - Do max flank when coming out of stealth}{Avoid
+Sight 2 - cannot be seen until action taken (Status duration 3)}{Steal: Take a
+non-equipped item from target when coming out of stealth}{passive When
+hidden,Inflict bleeding on attack}{Reflex - when hidden,draw to avoid hit on
+K+}
+
+\skill{Perception}{Passive: See Traps}{Passive: See +2 fog of war sight}{See
+Skills and Abilities}{Alertness - Status(5) See Stealth (stealth status
+-1)}{Alertness gains Intent (pre-flex once per battle)}{Alertness gains -
+Stealth -2,Pre-flex twice}
+
+\skill{Immunity}{avoid terrain effect}{status that causes debuffs to click down
+2x fast}{status that causes +1 to the duration of a different status}{clear a
+status with 1 duration to inflict status prevent identical status for 3
+turns}{Purge - clear all statuses from user}{Statuses that target adjacent foes
+and allies now target user instead}
+
+\skill{Aura}{Create a single use defensive Aura of 2lv/2lv}{Create a single use
+short weapon Aura of 2lv/2lv}{Create a single use long weapon Aura of
+2lv/2lv}{Change aura elemental affinity (effects items made of aura)}{Charge
+Aura - durability of aura weapons $+1$ use per charge}{Charging aura also gains
+$+1/+1$ to aura strengths (cap 5)}
+
+\skill{Counter}{Status Counter if less for close combat}{Status Counter if less
+for long range}{Status Counter if less for Special or Defense}{Status Counter
+with "if then" instead of less}{Status Counter with if more instead of
+less}{Counters 2 actions instead of 1}
+
+\skill{Trap}{Lay Trap that inflicts status}{Lay Trap that does damage to
+target}{Lay trap that hits target and adjacent for status}{Lay trap that hits
+target and adjacent for damage}{Lay trap to convert neutral unit}{Throw trap up
+to 3 panels away}\\
+\textit{Traps activate during the status phase of the turn}
+
+\skill{Disarm}{Remove Traps}{Remove Equipment}{prevent all target hero's
+actions for 1 round}{Remove Weapons}{prevent all target hero's actions for 3
+rounds}{Remove all equipment except weapons}
+
+
+
+
+\section{KNOWLEDGE}
+
+\subsection{General Knowledge}
+For each knowledge skill that a character has, they gain the following abilities \\
+\begin{tabularx}{\textwidth}{l X}
+\textbf{2 Skills:} & + 1 lv to any knowledge skill (only one skill may be boosted at a time)\\
+\textbf{3 Skills:} & Unlock Further Knowledge\\
+\textbf{4 Skills:} & Unlock Greater Knowledge\\
+\textbf{5 Skills:} & Insight : target a foe at beginning of battle; all attacks
+    by this hero deal +1 damage to that foe\\
+\end{tabularx}
+
+\kskill{BATTLE}{Take Command - +1 power level for squad limit 1 per
+squad}{Passive Take Command}{If the hero is in command of a squad, the hero may
+take an additional action apart from the squad}{Supply Drop }{Forces
+Drop}{Formation Moves}{+3 Forces Cap (Limit 2 units may use this per
+side)}{None}
+
+\kskill{MAGIC}{"Throw" Verb; "Bolt" noun}{"Block" noun; "Place" Verb}{ All
+Verbs}{All Nouns - First level magics}{reflex : Stop Any Magic}{All
+Adverbs}{Stop Magic and counter with same spell without cost}{None}
+
+
+\kskill{HISTORIC}{Decrease the duration of an ancient status by
+1}{Multilingual,Basic Map w/o fog of war}{Map with Positions of all
+characters}{Change into an ancients status for 1 turn; cool down 1
+turn}{Ancient Languages,Path finding: add 1 feature to map before battle}{Map
+updates}{terraforming: add 2 features to map before battle}{None}
+
+\kskill{Piloting}{Pilot - Squads containing this unit may move before or after
+a normal action}{Passive Pilot}{}{}{}{Preform level one portal actions on a
+portal}{}{None}
+
+\kskill{TECHNICAL}{Craft with material levels 1 and 2}{Technical Abilities
+lv1}{Craft with material levels 3 and 4}{Technical Abilities
+lv2,Research}{Craft with materials level 5+}{Level Further: Engineering lv1 and
+lv2 }{Engineering lv3 and lv 4}{None}
+
+\kskill{NATURALISTIC}{Acquire item on KO 10\%,Farm Plants}{Convert Neutral
+Creatures}{Acquire item on KO 20\%,Farm Animals for food}{Order One
+Creature}{Acquire item on KO 30\%,Farm Animals for Allies}{Order Three
+Creatures}{Acquire item on KO 50\%}{None}
+
+\kskill{MEDICAL}{First Aid: heal 1 hp}{Clear One Status}{Surgery (Heal 3hp or
+Clear All status with 2 turn recharge)}{Pharmacology (2 turn buff/debuff
+including HP)}{Improved Pharmacology (4 turn buff/debuff including
+HP)}{Immunizations (prevent Debuff of a given type)}{Wonder Cure - inflict
+status that once per battle revive to full from KO}{None}
+
+\kskill{CHARISMA}{Call Ally lv 1(quicken an ally to move next); Discount
+Lv1}{Convert Neutral Character (Requires 3 successful attempts w/o
+interference)}{Tag Ally (Switch places with out of battle ally for 3 turns,All
+effects and damage done to this ally transfer to Hero after 3 turns); Discount
+Lv2}{Call Ally lv2 (Preform a single action of an out of battle
+character)}{Convert Foe (Requires 3 successful attempts w/o interference);
+Discount Lv3}{Reinforce Ally (All allies get +2 modifier); Order Ally (Creates
+an ally that acts under AI for 3 turns)}{Double Soul (Combine with an adjacent
+ally into a single unit with total skill +1; if skill lv>5 then grant $\Omega$
+skill)}{None}
+
+\section{MAGIC}
+Magic works using the difficulty system.  When a character uses a magic
+ability, they draw 2 cards.  The first card is the card bonus for the action.
+The second card determines whether or not the caster will suffer manna burn.
+This is determined by using the difficulty of the action.  If the rank of the
+second card is greater than or equal to the difficulty of the action, then the
+user suffers no manna burn; else, the user will suffer 1 damage as manna burn.
+Each level that a character has in a given skill reduces the difficulty of
+using abilities in that skill by their skill level. For example, a character
+with Cast 4 who is using an ability with a difficulty of 12 from the Cast skill
+would need a 8 or better to succeed. However if the same character attempted to
+use a Heal ability, He would have to get a Queen or better to succeed.
+Abilities that have enhanced manna burn will suffer the ceiling of ceiling
+(cost/5) damage.  For example the same mage casting the 12-difficulty spell
+except it dealt enhanced manna damage,the manna burn would be 3 damage.  
+
+\skill{CAST}{Bolt (9 difficulty),Block (9 difficulty)}{ Sky Bolts (10
+difficulty),Elemental Specialty [grants special cast and -1 difficulty for the
+element; only one element may be specialized at a time]}{Blast (11 difficulty)
+Empower magic [-1 difficulty for next cast; deductions stack i.e.3 uses yields
+a -3 difficulty for next cast]}{Wave (12 difficulty),Storm (12
+difficulty)}{Gain Second Special Elemental Specaility}{Difficulty -2 for Cast
+abilities}
+
+\skill{HEAL}{Heal 1 (difficulty 8)}{Take Energy from magic from
+environment,Status heal (difficulty 9)}{Take Energy from ally or neutral
+unit}{Take Energy from foe,Cast 2 heal actions in one turn (+2 difficulty)}{
+Revive from KO (difficulty 14),Cast 3 heal actions in one turn (+3
+difficulty)}{Difficulty -2 for Heal}
+
+\skill{ALCHEMY}{Enchant Element (9 Difficulty)}{Transmute item at 3:1 cost (10
+difficulty)}{Transmute item at 2:1 cost (11 difficulty),Enchant Ability from
+Skill lv1 (10 Difficulty),Increase Skill level of enchanted ability by 1 level
+(+1 difficulty each level)}{Transmute item at 1:1 cost (12 difficulty),Enchant
+Ability Skill lv 1 (15 difficulty)}{Create Great Alchemy (Difficulty
+19)}{Difficulty -2 for Alchemy}
+
+\skill{SUMMON}{summon creature worth 3 points (10 difficulty),order
+creature}{Summon creature worth 5 points (11 difficulty)}{Summon creature worth
+10 points (12 difficulty),sustain creature (+1 each turn sustained past
+2)}{Summon creature worth 15 points (13 difficulty)}{Summon creature worth 20
+points (14 difficulty),move while summoning}{Difficulty -2 for Summon}
+
+\skill{STATUS}{Buff/Debuff 1 point any stat except will duration 3 (Difficulty
+10)}{Remove Status (11 Difficulty)}{Recurring Buff
+/Debuff 1 point duration 3 (Difficulty 12)}{Increase Duration by 1 (+3
+each)}{Increase Intensity by 1 (+4 each)}{Difficulty -2 for Status}
+
+\skill{MIND}{Passive share fog of war sight,communicate w/o line of sight
+}{Inflict Knock back (11 Difficulty each)}{Preflex (Difficulty 15)}{Mind Wipe
+(ban use of all abilities from a skill for 3 duration; difficulty 13)}{Mind
+Control (chose one of next 5 actions,difficulty 14)}{Difficulty -2 for Mind}
+
+\skill{GEOMANCY}{Move Panel new location (10 difficulty)}{Change panel type (11
+difficulty)}{Change 3x3 area to panel type (12 difficulty)}{Change Conditions
+(13 difficulty)}{Release Panel Effect (14 difficulty)}{Difficulty -2 for
+Geomancy]}
+
+\skill{SHAPE-SHIFTING}{Change elemental affiliation (difficulty 10)}{Change
+race (11 difficulty)}{Acquire additional racial area (Difficulty 12)}{Acquire
+additional Racial Skill (Difficulty 13)}{Acquire 3rd Racial Skill (Difficulty
+14)}{Difficulty -2 for Shape-Shifting}
+
+\section{MECHANICS}
+\textit{Abilities in this tree may not be used if the user is below 1/3 full will.}
+
+\skill{AI}{Memory 2; Learn Ability (2 Memory)}{Memory 4; Learn Skill (4
+Memory)}{Memory 6; Learn Weapon (6 Memory)}{Memory 8; Improve Skill 1 level (3
+Memory each)}{Memory 10}{Memory 16}
+
+\skill{ENGINE}{Shift 1(move one attribute point from attack,defense,or speed to
+attack,defense,or speed);}{Shift 2}{Shift 3; shift movement type}{Shift
+4}{Shift 5}{Teleport (uses 3 shifts to move in all remaining actions to a
+specific part of a round)}
+
+\skill{INFECTION}{Deal 1 damage and heal 1 hp}{Deal 1 damage and inflict
+recurring debuff (3,1,HP)}{Deal 1 damage and control foe's next action}{Deal 1
+damage and control foe until he or she is attacked}{Deal 1 damage and exchange
+a skill with foe.}{KO target after next round if user and target are adjacent}
+
+\skill{EXTENSION}{+1 extensions; use one extension to increase
+Attack,Defense,or Speed; buff removed when user cannot use Extension}
+{+1 extensions}{+1 extensions; +1 hand for 3 extensions}{+1 extensions}{ +1
+extensions; +1 durability for all extensions for 2 parts}{for 2 extensions,+1
+attack,defense,and speed}
+
+\skill{DRONES}{Create Attack Drone (create 1 unit that  attacks at
+will  with a short range weapon); Create Defense Drone (create one unit
+that  defends me ); the drone units are destroyed if the
+drone s controller unit is hit.}{Create Heal Drone (create 1 unit that
+ Defends Team  that can heal other units); Create Long Range
+Drone (Create 1 unit that  attacks at will  with a long range
+weapon)}{Create Movement Support Drone (create a unit that modifies another
+drone to have "flight"  movement instead of  land 
+movement)}{Create Terraform Drone (Creates a unit that follows controller and
+changes tiles to a specific preset type)}{Create Command Drone (Creates a unit
+that allows the control of another drone as if it is an additional player
+character)}{Advanced Drone (Creates a unit that allows a drone take an
+additional action each turn)}
+
+\skill{TRANSFORM}{Change element (takes 1 turn)}{Change Weapon (takes 2
+turns)}{Change Armor/Foot/Helm (takes 2 turns)}{Speed up changes (-1
+turns)}{Change skills (takes 4 turns; cannot be used to replace
+Transform)}{Speed up changes (-1 turns)}
+
+\skill{FIELDS}{field radius 1; buff 1 attack,defense,or speed.}
+{debuff 1 foe's attack,defense,or speed}{recurring buff (3,1,HP); negate
+conditions}{debuffs recurring foe's HP}{field radius 2}{increase magnitude of
+effect by 1 unit}
+
+\section{ANCIENTS}
+Cool: a status that lasts a given duration that during which no Ancients skills may be used
+Status: Ancient statuses for each skill are required to use all abilities in a skill 
+\skill{Dragon}{Enable DragonRage (Duration lv
++2/ Cool 5) Attack (+lv)}{Claws (Wide cut + bleeding; +lv as bonus; -1
+duration)}{Flight (status; cannot be targeted by short range weapons; duration
+-1)}{Dive ([lv-2] x short range attacks; duration -1; must be in
+flight)}{Breath (hits a triangle 3 deep; drains duration to 0; cool is +5
+duration for next cool)}{Mega Breath (hits a triangle 5 deep with two Special
+Attacks; drains duration to 0; cool is +10 duration for next cool)}
+
+\skill{Hydra}{Enable SeaStorm (Duration lv+2/ Cool 5) Will cap (+lv)}{Venom
+(Long Range; inflict recurring debuff (-1,3,HP); +lv as bonus to hit; -1
+duration)}{Regent (status; Heal 1 HP; duration -1)}{Frenzy (On hit,counter with
+[lv-1] x short range attacks; duration -1)}{Muramasa (Deals [Will cap-will]
+    short range attacks; drains duration to 0; cool is 
++5 duration for next cool)}{Dark Counter (On hit,counters with Muramassa twice;
+drains duration to 0; cool is +10 duration for next cool)}
+
+\skill{Ares}{Enable LastStand (Duration lv+2/ Cool 5) Wield (Unlocks legendary
+powers on Ancient Weapons)}{Route (prevents targets next turn; +lv as bonus to
+hit; -1 duration)}{Level 3: Rally (Status; all allies with 1 hp move again;
+duration -1)}{Charge (Exchange actions with a teammate; -1 duration)}{Muster
+(Interrupt initiative and take Â½ moves rounded down before all others; drains
+duration to 0; cool is +5 duration for next cool)}{Artillery (take 1 long range
+attack on all foes; drains duration to 0; cool is +10 duration for next cool)}
+
+\skill{Dimension}{Enable VoidCast (Duration lv+2/ Cool 5) Negate
+Conditions}{Change all adjacent tiles to a specific tile set (-1
+duration)}{Spawn Object (duration -1)}{Spawn Creature (Exchange actions with a
+teammate; -1 duration)}{Force of Will (Effects made during ancients mode become
+permanent; drains duration to 0; cool is +5 duration for next cool)}{Black hole
+(do 3 hits to adjacent enemies; do 2 hits to enemies 1 panel away; do 1 hit to
+enemies 2 panels away; pulls targeted units towards user; drains duration to 0;
+cool is +10 duration for next cool)}
+
+\skill{CONTROLIA}{Enable LuckyStreak (Duration lv+2/ Cool 5) +lv to all
+actions}{+3 luck (duration -1)}{Even Luck (status; redraw lv or less; duration
+-1)}{Good Luck (Draw two and take average; -1 duration)}{Strong Luck (Draw 3
+cards and take highest for card bonus; drains duration to 0; cool is +5
+duration for next cool)}{Miracle (Automatic Joker for next action; drains
+duration to 0; cool is +10 duration for next cool)}
+
+\skill{Hades}{Undead - Prevent KO status(Duration lv+2/Cool 5)}{Scream -
+paralyze adjacent foes for 1 turn(2 duration)}{Blood Call - buff +1 to strengh
+adjacent allies(2 duration)}{Status for every will < 0; strength + 1}{Infect -
+On hit +4 duration to ancients or + 1 will (3 duration)}{+1 power level when KO
+character; curve stomp}
+
+\skill{Titan}{Enable GreatDefence +lv defense (Duration lv+2/ Cool 5)}{Block -
+Defence Cap + lv (duration -1)}{Shrugoff - passive if damage > 1 damage -1
+(duration -1)}{Smash - Strength = Defense + Strength (duration -2)}{Indomitable
+- preflex prevent an action that targets user(duration = 0; Cool +
+5)}{Impenetrable - passive preflex prevent an action that targets user(duration
+= 0; Cool + 10)}
+
+\skill{Centaur}{+lv to speed duration = lv +2}{charge - ignore terrain and
+enemies and move 2; attack units that are moved through}{rescue - ignore terain
+and enemies and move 2;  pull characters adjacent to path to adjacent to
+stop}{if player passed, player may reflex action}{Flank Speed - move 2 allies
+adjacent to path gain max flank duration 1}{status damage = damage + panels
+moved}
+
+\section{Drifting}
+Drifting abilities may only be used on portals.
+\skill{Space}{portal allows transport between 2 portals}{User may exit up to lv
+away (1 mp)}{Open Portal at distance (1mp)}{Force enemy to enter
+portal(1mp)}{Transport all allied units adjacent to portal(2mp)}{Force all
+enemy units to enter adjacent to portal(2mp)}
+
+\skill{Time}{Portal (+1 initiative)}{move target character up or down one
+position in initiative.}{Enlarge Portal}{Stop (Caster and target cannot act
+next round)}{Quicken -Target gains an additional action at the end of the turn
+order.}{Quicken Party - allies gain an additional action}
+
+\skill{Ancient}{Portal (+1 power level but user can only use default
+abilities)}{Player may use skills instead of default abilities}{+2 Power
+Level}{Expand Portal}{Follow Portal}{+3 Power Level}
+
+\skill{Dream}{Portal (Prevent 1 debuff from having affect)}{Target gains debuff
+on card bonus}{Prevent critical hits on target}{Expand Portal}{For target,
+treat 3's as a -2}{Target suffers 2 damage/hit}
+
+\skill{Dark}{Portal takes will from adjacent allies for a buff of +1 to action
+uncapped per will taken duration 2}{Expand Portal}{Take will from allies to
+heal the environment}{Corrupt World - drifters without dark drifting take 1
+damage while drifting}{Hits do 2 damage but deal 1 damage recoil}{Player can
+continue to attack as long as they can target a new unit}
+
+\skill{Arcane}{Portal heal environment or self at 3:1 environment:self
+ratio}{can now target allies}{Expand Portal}{can now target foes}{Gaia's link:
+target transfers will to environment each round or visa versa}{Abilites in this
+tree are now range 2}
+
+\skill{Cyber}{create portal(user may place/dispel a block adjacent to portal)
+users with cyber drifting may attack through block}{user may knockback a block
+when on a portal}{user may create a line of blocks from the portal to a
+existing block}{user may move to any space adjacent to a set of adjacent blocks
+to which he is adjacent}{User transforms block to copy next attack}{User chain
+transforms blocks to copy next attack}
+\skill{Kinetic}{Portal + lv to attack value}{Disables (Force Repair;  Force
+Manaburn; -3 duration ancients)}{Beam (seeks to hit target) }{Follow
+Portal}{"jump" over foes from portals}{Spirit Blast - Wait n turns; deals n
+damage to n radius panels from user; if attacked during wait reset n to 0}
+
+
+\section{RACIAL}
+\textbf{STRENGTH}
+The Strength level is multiplied by 2 and added to all attacks\\
+\textbf{DEFENSE}
+The Defense level is multiplied by 2 and added to all defenses\\
+\textbf{SPEED}
+Speed has 2 functions.  First when players draw for initiative,add the speed multiplied by 2 to the card bonus.  Second,if the initiative value for any hero is 15 or greater; then the Hero takes 2 actions per round.\\
+\textbf{WILL} Will level is added to 6 for a characters Will Cap.
+%\end{multicols}
+
