@@ -1,4 +1,7 @@
 .DS*
+*.log
+*.out
+*.toc
 *.pyc
 *.aux
 tags
