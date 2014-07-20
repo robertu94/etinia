@@ -5,6 +5,8 @@ from map import Map
 from character import Character
 from mapcontroller import MapController
 
+#This set up for testing purposes
+#TODO Move this code to an initalizer function
 world = Map(7, 5)
 hero = Character(0,2, 5, team=1)
 world.add_unit(hero)

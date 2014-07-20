@@ -17,10 +17,10 @@ class Character:
         self.equipment = [0]  # list of equipment to be expanded once the item class is created using int for now
         self.items = [0]  # list of non-equipped items to be expanded once the item class is finished
 
-    @staticmethod
     def load(savefile):
-        """Takes in a line from the save file that contians the information about the character
-           Format:  x y will strength defense speed exp gold skills equipment
+        """
+        Takes in a line from the save file that contains the information about the character
+        Format:  x y will strength defense speed exp gold skills equipment
         """
         pass
 
@@ -45,7 +45,8 @@ class Character:
         """Update the characters position"""
         self.x = x
         self.y = y
-    def compute_init(rnd):
+
+    def compute_initiative(rnd):
         return rnd + self.speed
     """
     TODO
