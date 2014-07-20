@@ -1,0 +1,5 @@
+.DS*
+*.pyc
+*.aux
+tags
+__pycache__
