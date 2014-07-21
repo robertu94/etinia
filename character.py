@@ -1,20 +1,55 @@
+class archetype():
+    """
+    a base class for all characters from which all character like classes will inherit
+    """
+    def __init__(self, idval, name, hand_limit= 2, armor_limit=3, gear_limit=0, hands =[], armor=[], gear=[], skill_limit = 5, skills=[], dna=3, strength = 0, speed = 0, defenses = 0 , will =6, subunit = []):
+        #max size of the hand list
+        self.hand_limit = hand_limit
+        #max size of the armor list
+        self.armor_limit = armor_limit
+        #max size of the gear lsit
+        self.gear_limit = gear_limit
+        # list containing the characters hand items
+        self.hands = hands
+        # list containing the characters armor items
+        self.armor = armor
+        # list containing the characters gear items
+        self.gear = gear
+        # max size of the skill list
+        self.skill_limit = skill_limit
+        # list containing the players skills
+        self.skills = skills
+        # value that describes the maximum of several physical values
+        self.dna = dna
+        self.strength = strength
+        self.speed = speed
+        self.defenses = defenses
+        self.will = will
+        # list of units that make up this unit
+        self.subunit = subunit
+        # unique idvalue
+        self.idval = idval
+        self.name = name
+        # contains a path to the file that should represent the character
+        self.img = img
+
+
+class player(archetype):
+    """
+    Representation of the player and player-like characters in the game
+    """
+    def __init__(self, idval, name, hand_limit= 2, armor_limit=3, gear_limit=0, hands =[], armor=[], gear=[], skill_limit = 5, skills=[], dna=3, strength = 0, speed = 0, defenses = 0 , will =6, subunit = [],exp = 0 , gold =0 , items= []):
+        super(player, self).__init__(idval, name, hand_limit, armor_limit, gear_limit, hands , armor, gear, skill_limit , skills, dna, strength , speed , defenses , will , subunit)
+        self.exp = exp
+        self.gold = gold
+        self.items = items
+        
+        
 class Character:
     def __init__(self,idval, x=0, y=0, will=6, strength=0, defense=0, speed=0, img="@", gold=0, exp=0,team = 0):
         """Create the base character Class"""
-        self.idval = idval
-        self.x = x
-        self.y = y
-        self.img = img
-        self.will = will
-        self.strength = strength
-        self.defense = defense
-        self.speed = speed
         self.exp = exp
         self.gold = gold
-        self.team = team
-        self.skill = [0]  # list of skills to be expanded once the skills class is created using int for now
-        self.abilities = [0]  # list of abilities to be expanded once the abilities class is created using int for now
-        self.equipment = [0]  # list of equipment to be expanded once the item class is created using int for now
         self.items = [0]  # list of non-equipped items to be expanded once the item class is finished
 
     def load(savefile):
