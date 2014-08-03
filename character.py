@@ -3,33 +3,45 @@ class archetype():
     a base class for all characters from which all character like classes will inherit
     """
     def __init__(self, idval, name, hand_limit= 2, armor_limit=3, gear_limit=0, hands =[], armor=[], gear=[], skill_limit = 5, skills=[], dna=3, strength = 0, speed = 0, defenses = 0 , will =6, subunit = []):
+
         #max size of the hand list
         self.hand_limit = hand_limit
+
         #max size of the armor list
         self.armor_limit = armor_limit
+
         #max size of the gear lsit
         self.gear_limit = gear_limit
+
         # list containing the characters hand items
         self.hands = hands
+
         # list containing the characters armor items
         self.armor = armor
+
         # list containing the characters gear items
         self.gear = gear
+
         # max size of the skill list
         self.skill_limit = skill_limit
+
         # list containing the players skills
         self.skills = skills
+
         # value that describes the maximum of several physical values
         self.dna = dna
         self.strength = strength
         self.speed = speed
         self.defenses = defenses
         self.will = will
+
         # list of units that make up this unit
         self.subunit = subunit
+
         # unique idvalue
         self.idval = idval
         self.name = name
+
         # contains a path to the file that should represent the character
         self.img = img
 
@@ -52,29 +64,17 @@ class Character:
         self.gold = gold
         self.items = [0]  # list of non-equipped items to be expanded once the item class is finished
 
-    def load(savefile):
+    def save(self):
         """
-        Takes in a line from the save file that contains the information about the character
-        Format:  x y will strength defense speed exp gold skills equipment
+        Returns a serialized form of the character
         """
         pass
 
-    def __str__(self):
-        """Converts the character to a string for easy saving"""
-        savefile = ""
-        savefile += self.img + " "
-        savefile += (str(self.idval)) + ""
-        savefile += (str(self.x)) + " "
-        savefile += (str(self.y)) + " "
-        savefile += (str(self.will)) + " "
-        savefile += (str(self.strength)) + " "
-        savefile += (str(self.defense)) + " "
-        savefile += (str(self.speed)) + " "
-        savefile += (str(self.exp)) + " "
-        savefile += (str(self.team)) + " "
-        savefile += (str(self.gold)) + " "
-        savefile += (str(self.skill)) + " "
-        return savefile
+    def load(self):
+        """
+        Loads the character from serialized from
+        """
+        pass
 
     def move(self, x, y):
         """Update the characters position"""
