@@ -1,16 +1,20 @@
 \chapter{DEFINITIONS}
+
 \section{KNOCKBACK}
 At the end of an attack event,the target character is moved back namespaces in the direction of the attack.
+
 \section{FLANKING}
 Add a modifier for each attack preformed on the same hero in one round
 +0 first attack\\
 +3 second attack\\
 +5 each subsequent attack\\
+
 \section{ELEMENTAL BONUS}
 +5 Super Effective\\
 +3 Against Neutral\\
 +0 No Effect\\
 -5 Not Very Effective
+
 \section{CRITICAL HITS}
 Critical Hits are dealt every time a joker is drawn as the card bonus and at other times as determined by skills.  The effect of a critical hit is determined by the element of the weapon used for the attack.\\
 \rowcolors{1}{white}{gray}
@@ -33,6 +37,7 @@ Abandon & Ignore armor when calculating opponent's defense value\\
 
 \section{FOG OF WAR}
 All characters see two spaces in fog of war conditions.  If a character cannot see a foe,they may not target them.  However,if an attack that targets a foe/object within sight would also hit a foe out of sight,both maybe hit.  
+
 \section{BATTLE }
 $Attack Value = (2 x strength)  + Weapon_{attack1} +Weapon_{attack2}+ specific_{skill1} + Specific_{skill2}  + card_{bonus}+ Attack_{Modifiers}$
 $Attack_Modifiers = status_effects+ flanking + elemental_bonus$
@@ -83,9 +88,11 @@ Actions for a computer controlled unit that may be assigned
 \item Heal Team: Heals the nearest ally; will use assigned ability
 \item Heal Lowest: Heals the ally with the least hp; will prioritize the \item closest units first; randomly in a tie; will use assigned ability
 \end{itemize}
+
 \section{SUPPLY/REINFORCEMENTS DROPS}
 The item or troop that will be dropped is decided before battle.  They then are dropped when a character activates the drop ability.Supplies maybe any item and forces may be any hero.  The player calling the drop decides the target position.  Draw two cards for drift from this position.Royals cause no movement from target position.Spade numbers: move up one space; Heart numbers: move right one space; diamonds: move down one space; clubs: move left one space.Only one force
 / item may be dropped in one action even if more than one unit has objects to drop.  Only the character with the specific drop request may call the drop.
+
 \section{TERRAIN}
 \begin{itemize}
 \item Neutral - no effect
@@ -96,6 +103,7 @@ The item or troop that will be dropped is decided before battle.  They then are 
 \item Sky - cannot be entered on without flight; if knocked back onto without flight skill then paralyze 1 and climb up
 \item Relic - allows magic/mechanics/ancients without exception; 
 \end{itemize}
+
 \section {CONDITIONS}
 \begin{itemize}
 \item Anti-Magic - no magic skills may be used; spawn one relic
@@ -108,8 +116,10 @@ The item or troop that will be dropped is decided before battle.  They then are 
 \item Low Energy - 5 MP available in the environment
 \item Neutral- no effects
 \end{itemize}
+
 \section{OBJECTIVE BASED FEATURES}
 Depends on time period.  Can be interacted with using skills.May or may not have door; door may or may not be locked.
+
 \section{IF THEN TRIGGERS}
 This is the list of all possible triggers:
 \begin{itemize}
@@ -125,9 +135,11 @@ This is the list of all possible triggers:
 
 \section{EXPERIENCE POINTS AND LEVELING UP}
 For each successful action and critical success (joker),one experience point is gained.  For every 30 experience points,1 level point is gained.  To advance a skill one level you must pay the amount of level points equal to the current level of the skill.
+
 \section{CALL ALLY}
 Call ally lv 1 the character does one ability\\
 Call ally lv 2 the character does three abilities\\
+
 \section{LAWS}
 Any Trigger except fence may by the law that must be followed.  The following bonuses may be gained:
 \begin{itemize}
@@ -137,32 +149,6 @@ Any Trigger except fence may by the law that must be followed.  The following bo
 \item +1 Speed
 \item +1 experience
 \end{itemize}
-\section{RESEARCH}
-Items can be researched using the Technical Knowledge Skill.  Each unit of research requires 1 exp be expended.  The exp cannot be used to level up.  The following items can be researched\\
-\begin{tabularx}{\textwidth}{l X r}
-\hline
-Item & Effect & Cost \\
-\hline
-Alloy & Material with a $6/6$ strength & 4 units \\
-Harmonizer & Helm Allows access to Ancients skills & 12 units\\
-Mechas & Helm Allows access to Mechanics skills & 12 units \\
-Mystic Gem & Helm Allows access to Magic skills & 12 units\\
-Power Suit & Armor that holds up to 5 Racial Skills beyond Cap & 24 units\\
-Bionis & Armor that holds 1 skill that can be improved & 24 units\\
-Data Density & Armor that holds 5 abilities& 24 units\\
-Gene Splicer & Armor that holds a level one racial skill ignore cap & 24 units \\
-Great Power & Armor that holds 5 MP & 24 units\\
-\end{tabularx}
-\section{GREAT ALCHEMY}
-The following items can be produced using the great alchemy skill:\\
-\begin{tabularx}{\textwidth}{l X}
-\hline
-Item & Effect\\
-\hline
-Golem& Creates a moveable unbreakable object \\
-Gold & Worth the same as 1 unit of Processenium when traded\\
-Philosophers Stone & Stone that holds 5mp but can be exchanged to revive a character without fail ignore all other restrictions.\\
-\end{tabularx}\\
 
 \section{SPECIAL CASTS}
 
@@ -177,7 +163,7 @@ Abandon & Prevents KO from having an effect for 3 turns & 17 \\
   &Creates skill number characters from target character each with 1 different skill from target character & 19 \\
 Earth & Create vines that move out at beginning of turn dealing 1 damage to targets in path & 17 \\
   & Prevent all damage and forbids move; Each time this is used successively manna burn deals turns +1 damage & 17 \\
-  & Requires full HP.  If manna burn: user takes 1 damage. If no manna burn: target suffers User Will. +2 damage and User now has 0 Will. & 20\\
+  & Requires full HP\@.  If manna burn: user takes 1 damage. If no manna burn: target suffers User Will. +2 damage and User now has 0 Will. & 20\\
   & Target characters are now in double soul state for 3 turns & 19 \\
 Justice & Target gains Move Type: Teleport for 3 turns & 17\\
   &Change condition to all permissive & 17\\
@@ -197,96 +183,6 @@ Sky & Move target to any panel & 15\\
   & Allows Target character to take their action next & 19\\
 Law & Randomly Inflicts 1 law for a chosen bonus & \\
 
-\end{tabularx}
-\section{RACIAL ABILITIES}
-\begin{tabularx}{\textwidth}{l X}
-\hline
-Works Best With & Grants \\
-Magic & $-2$ difficulty \\
-  & +1 MP\\
-  & Elemental Affinity $x2$\\
-  & Magic does $+1$ damage against status afflicted characters \\
-  & $+ 1$ duration for all Magic abilities \\
-  & Access Magic Tree without Racial Specialty \\
-Mechanics & 6th Skill that can be switched in and out using the Engine Skill \\
-  & $+1$ Durability to Mechanics\\
-  & Repair on after any successful action\\
-  & Units adjacent to this hero cannot move away\\
-  & Gain ability: build tower object with 3 will as action.  Mechanics abilities can be used while the tower is standing ignore durability\\
-  & Access Mechanics Tree without Racial Specialty\\
-Ancients & Ancients Durations $+1$\\
-  & Cool down $-1$\\
-  & Gain ability: Force target hero into cool down. \\
-  & Use any ancient skill as the Skill modifier. \\
-  & All ancient skills use a common pool.  Add duration to the pool when activating a new ability.  For each active ancients ability,subtract one duration each turn \\
-  & Activate 2 ancients abilities in one turn \\
-  & Access Ancients tree without racial specialty \\
-Knowledge & 6th skill for knowledge skills \\
-  & +1 to all heal intensities \\
-  & Share knowledge skills with adjacent allies at $Lv-4$. \\
-  & Prevent friendly fire\\
-  & Boost 1 knowledge skill by 1 level\\
-  & -3 difficulty for word spells \\
-\end{tabularx}
-\newpage
-\begin{tabularx}{\textwidth}{l X}
-\hline
-Works Best With & Grants \\
-Attack & Use long ranges skills without a long range weapon \\
-  & Use the aim ability 3 time per battle without an action \\
-  & Gain ability focus: inflict status that yields attack,defense,speed for 3 turns\\
-  & Can use close combat abilities without a close combat weapon\\
-  & +5 to all attack actions,-5 to all defense actions\\
-  & Gain ability: prevent target hero from being revived.  Cannot be prevented if target hero has 0 will or less \\
-Defense & May use 1 shield without using a hand equipment slot\\
-  & + 5 to all defensive actions,-5 to all attack actions\\
-  & If damage is >1 then damage -1 \\
-  & Counters defend twice\\
-  & -1 duration debuffs \\
-  & Stealth duration +1\\
-Racial &  Strength cap +2 \\
-  &  Copy Racial ability \\
-  & Will cap +2 \\
-  & Speed cap +2 \\
-  & Gain ability: Copy targets attributes\\
-  & Defense cap +2\\
-  & Access all $\Omega$ skills without using an additional skill slot.  Skill slots -1 \\
-  & May use 1 attribute skill without using a skill slot\\
-Vehicle & Characters using this vehicle may use skills\\
-  & Equipment for vehicle may be exchanged with carried heroes\\
-  & Capacity for 3 units \\
-  & Move 2 spaces for each move action\\
-  & Hands +4 \\
-  & Ignore terrain,Hands -2\\
-\end{tabularx}
-\section{RACIAL SPECIALTIES}
-\begin{tabularx}{\textwidth}{l X}
-Specialty & Grants \\
-Magic & Access Magic Skills\\
-Ancients& Access Ancients Skills\\
-Mechanics& Access Mechanics Skills\\
-Vehicle& Access Vehicle Racial Abilities\\
-\end{tabularx}
-
-\section{FARMING}
-Farming is accessed through the Naturalist Skill.  Creatures and plants in the farm are raised through solar units.  Each EXP the player earns is equivalent to 12 solar units.\\
-\begin{tabularx}{\textwidth}{l X r}
-\hline
-Creature & Effect & Solar Units \\
-\hline
-Bitter Plant& Buff strength +1 for 10 turns ignore cap & 4\\
-Sour Plant & Buff defense +1 for 10 turns ignore cap & 4\\
-Salty Plant & Buff Speed +1 for 10 turns ignore cap & 4 \\
-Sweet Plant & Buff will cap +1 for 10 turns ignore cap & 4\\
-Spicy Plant & Modifier + 10 for 2 turns & 4\\
-Fish & Buff defense + 5 and defense cap +2 for 3 turns & 12 \\
-Milk & Increases buffs/debuffs durations by taking all countdowns on milk status for 3 turns & 6\\
-Steak & Buff strength +5 and strength cap +2 for 3 turns & 12\\
-Eggs & Decreases buff/debuff durations by making all count downs by 2 for 3 turns &6\\
-Poultry &  Buff Speed + 5 and Speed cap +2 for 3 turns & 12 \\
-Pork & Heal 5 will and will cap +2 for 3 turns &12 \\
-Ore Golem & $Wood/Stone/Ore/Gem/Processenium$ & $12/24/36/48/60$ \\
-Daycare & 1 exp for housed creature & 24\\
 \end{tabularx}
 
 \section{REFERENCE TABLES AND GUIDES}
