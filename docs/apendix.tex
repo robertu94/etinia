@@ -41,8 +41,7 @@ All characters see two spaces in fog of war conditions.  If a character cannot s
 \section{BATTLE }
 $Attack Value = (2 x strength)  + Weapon_{attack1} +Weapon_{attack2}+ specific_{skill1} + Specific_{skill2}  + card_{bonus}+ Attack_{Modifiers}$
 $Attack_Modifiers = status_effects+ flanking + elemental_bonus$
-$Defence Value = (2 x Defence)+ Armor_Stat+ Helm_Stat + Foot_stat+ Weapon_Defence+ Specific_Skill
-+ Defence_Modifiers+5$
+$Defence Value = (2 x Defence)+ Armor_Stat+ Helm_Stat + Foot_stat+ Weapon_Defence+ Specific_Skill + Defence_Modifiers+5$
 $Defence_Modifiers  =   status_effects$
 
 Order of a Round
@@ -54,7 +53,7 @@ Order of a Round
 \item When last player has taken their first action; go back to highest initiative character; and if he or she has additional actions to take,then he or she may take them
 \item Continue until all players have taken all actions
 \item Decrease Durations of Status Effects by 1
-\item If the durations of any status effects are 0 then remove them
+\item If the durations of any status effects are less than 0 then remove them
 \end{enumerate} 
 
  Order of Action
@@ -67,6 +66,7 @@ Order of a Round
 \section{NEUTRAL UNITS}
 Span as a terrain feature; Treat as hero class character; randomly select a pair of Race and Action type
 Race: see star journal for list of races
+
 \subsection{Action Types}
 \begin{itemize}
 \item Aggressive: they always attack the closest units
@@ -74,6 +74,7 @@ Race: see star journal for list of races
 \item Peaceful: at first stand still but will attack last attackers if attacked
 \item Wanderers: Move in a random direction each move
 \end{itemize}
+
 \subsection{ORDERS}
 Actions for a computer controlled unit that may be assigned
 \begin{itemize}
