@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/env python3
 
 import argparse
 import collections
@@ -74,7 +74,7 @@ TREES = collections.OrderedDict([
     ('Knowledge', ['Battle', 'Magic', 'Historic', 'Piloting',
                    'Technical', 'Naturalistic', 'Medical', 'Charisma']),
     ('Magic', ['Cast', 'Heal', 'Alchemy', 'Summon', 'Status', 'Mind',
-               'Status', 'Geomancy', 'Shape-Shifting']),
+               'Geomancy', 'Shape-Shifting']),
     ('Mechanics', ['AI', 'Engine', 'Infection', 'Extension', 'Drones',
                    'Transform', 'Fields']),
     ('Ancients', ['Dragon', 'Hydra', 'Ares', 'Dimension', 'Controlia', 'Hades',

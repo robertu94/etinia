@@ -46,21 +46,27 @@ $Defence_Modifiers  =   status_effects$
 
 Order of a Round
 \begin{enumerate}
-\item Resolve all status effects 
-\item Draw cards for initiative add speed x2 for Initiative
-\item Highest Initiative goes first in case of ties draw again for tie breaker
-\item Continue in order of descending initiative
-\item When last player has taken their first action; go back to highest initiative character; and if he or she has additional actions to take,then he or she may take them
-\item Continue until all players have taken all actions
-\item Decrease Durations of Status Effects by 1
-\item If the durations of any status effects are less than 0 then remove them
+	\item Resolve all status effects 
+	\item Draw cards for initiative add speed x2 for Initiative
+	\item Highest Initiative goes first in case of ties draw again for tie breaker
+	\item Continue in order of descending initiative
+	\item When last player has taken their first action; go back to highest initiative character; and if he or she has additional actions to take,then he or she may take them
+	\item Continue until all players have taken all actions
+	\item Decrease Durations of Status Effects by 1
+	\item If the durations of any status effects are less than 0 then remove them
 \end{enumerate} 
 
- Order of Action
+Order of Action
 \begin{enumerate}
-\item Check Range if in range continue; else stop
-\item If Attack $>$ Defense then ability occurs; else ability fails
-\item Reflex Interrupt; Knockback Occurs; Counter Occurs; Preflex Interrupt; Action is taken
+	\item Use Immediate Action
+	\item Declare action
+	\item Preflex interrupt
+	\item Check Range if in range continue; else action misses
+	\item Action reflex interrupt
+	\item If Attack $>$ Defense then ability occurs; else action misses
+	\item Counter occurs
+	\item knockback occurs
+	\item Use Immediate Action
 \end{enumerate}
 
 \section{NEUTRAL UNITS}
