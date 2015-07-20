@@ -1,0 +1,736 @@
+{
+    "Ancients": {
+        "section_header": "Cool: a status that cannot be cleared, ignored, or prevented without exception that lasts a given duration that during which no Ancients skills may be used : Ancient statuses for each skill are required to use all abilities in a skill",
+		"elemental": {
+			"description": "",
+			"Abandon": "",
+			"Earth": "",
+			"Justice": "",
+			"Life": "",
+			"Sea": "",
+			"Sky": ""
+		},
+		"tree_omega": "",
+        "skills": {
+            "Ares": {
+                "level1": "Enable LastStand (Duration lv+2/ Cool 5) Wield (Unlocks legendary powers on Ancient Weapons)",
+                "level2": "Route (prevents targets next turn; +lv as bonus to hit; -1 duration)",
+                "level3": "Level 3: Rally (Status; all allies with 1 hp move again; duration -1)",
+                "level4": "Charge (Exchange actions with a teammate; -1 duration)",
+                "level5": "Muster (Interrupt initiative and take $\\frac12$ moves rounded down before all others; drains duration to 0; cool is +5 duration for next cool)",
+                "omega": "Artillery (take 1 long range attack on all foes; drains duration to 0; cool is +10 duration for next cool)"
+            },
+            "Centaur": {
+                "level1": "+lv to speed duration = lv +2",
+                "level2": "charge - ignore terrain and enemies and move 2; attack units that are moved through",
+                "level3": "rescue - ignore terain and enemies and move 2; pull characters adjacent to path to adjacent to stop",
+                "level4": "if player passed, player may reflex action",
+                "level5": "Flank Speed - move 2 allies adjacent to path gain max flank duration 1",
+                "omega": "status damage = damage + panels moved"
+            },
+            "Controlia": {
+                "level1": "Enable LuckyStreak (Duration lv+2/ Cool 5) +lv to all actions",
+                "level2": "+3 luck (duration -1)",
+                "level3": "Even Luck (status; redraw lv or less; duration -1)",
+                "level4": "Good Luck (Draw two and take average; -1 duration)",
+                "level5": "Strong Luck (Draw 3 cards and take highest for card bonus; drains duration to 0; cool is +5 duration for next cool)",
+                "omega": "Miracle (Automatic Joker for next action; drains duration to 0; cool is +10 duration for next cool)"
+            },
+            "Dimension": {
+                "level1": "Enable VoidCast (Duration lv+2/ Cool 5) Negate Conditions",
+                "level2": "Change all adjacent tiles to a specific tile set (-1 duration)",
+                "level3": "Spawn Object (duration -1)",
+                "level4": "Spawn Creature (Exchange actions with a teammate; -1 duration)",
+                "level5": "Force of Will (Effects made during ancients mode become permanent; drains duration to 0; cool is +5 duration for next cool)",
+                "omega": "Black hole (do 3 hits to adjacent enemies; do 2 hits to enemies 1 panel away; do 1 hit to enemies 2 panels away; pulls targeted units towards user; drains duration to 0; cool is +10 duration for next cool)"
+            },
+            "Dragon": {
+                "level1": "Enable DragonRage (Duration lv +2/ Cool 5) Attack (+lv)",
+                "level2": "Claws (Wide cut + bleeding; +lv as bonus; -1 duration)",
+                "level3": "Flight (status; cannot be targeted by short range weapons; duration -1)",
+                "level4": "Dive ([lv-2] x short range attacks; duration -1; must be in flight)",
+                "level5": "Breath (hits a triangle 3 deep; drains duration to 0; cool is +5 duration for next cool)",
+                "omega": "Mega Breath (hits a triangle 5 deep with two Special Attacks; drains duration to 0; cool is +10 duration for next cool)"
+            },
+            "Hades": {
+                "level1": "Undead - Prevent KO status(Duration lv+2/Cool 5)",
+                "level2": "Scream - paralyze adjacent foes for 1 turn(2 duration)",
+                "level3": "Blood Call - buff +1 to strengh adjacent allies(2 duration)",
+                "level4": "Status for every will < 0; strength + 1",
+                "level5": "Infect - On hit +4 duration to ancients or + 1 will (3 duration)",
+                "omega": "+1 power level when KO character; curve stomp"
+            },
+            "Hydra": {
+                "level1": "Enable SeaStorm (Duration lv+2/ Cool 5) Will cap (+lv)",
+                "level2": "Venom (Long Range; inflict recurring debuff (-1,3,HP); +lv as bonus to hit; -1 duration)",
+                "level3": "Regent (status; Heal 1 HP; duration -1)",
+                "level4": "Frenzy (On hit,counter with [lv-1] x short range attacks; duration -1)",
+                "level5": "Muramasa (Deals [Will cap-will] short range attacks; drains duration to 0; cool is +5 duration for next cool)",
+                "omega": "Dark Counter (On hit,counters with Muramassa twice; drains duration to 0; cool is +10 duration for next cool)"
+            },
+            "Titan": {
+                "level1": "Enable GreatDefence +lv defense (Duration lv+2/ Cool 5)",
+                "level2": "Block - Defence Cap + lv (duration -1)",
+                "level3": "Shrugoff - passive if damage > 1 damage -1 (duration -1)",
+                "level4": "Smash - Strength = Defense + Strength (duration -2)",
+                "level5": "Indomitable - status 1; preflex prevent an action that targets user(duration = 0; Cool + 5)",
+                "omega": "Impenetrable - passive preflex prevent an action that targets user(duration = 0; Cool + 10)"
+            }
+        }
+    },
+    "Attack": {
+        "section_header": "",
+		"elemental": {
+			"description": "Attacks elemental bonus occur when a critical hit is scored. Critical hits naturally occur when a Joker is drawn. These effects are applied to all attacks based on an element on the hero's weapon",
+			"Abandon": "Ignore armor when calculating opponent's defense value",
+			"Earth": "+1 damage on a successful hit ",
+			"Justice": "Buffs strength,speed,and Defense +2 for 3 turns",
+			"Life": "Heal 1 will on hit ",
+			"Sea": "Gain +1 skill for next action (lv5 -> $\\Omega$ ->Tree $\\Omega$)",
+			"Sky": "Move 2 spaces after critical attack"
+		},
+		"tree_omega": "+ 5 modifier ignore skill buff caps for this attack",
+        "skills": {
+            "Attack Improvisation": {
+                "level1": "Short Range to Long Range and Long Range to Short Range",
+                "level2": "Defense to Short Range and Defense to Long Range",
+                "level3": "Short Range to Defense Long Range to Defense",
+                "level4": "Weapon to Special and Special to Weapon",
+                "level5": "Dual Handed - use two weapons while attacking",
+                "omega": "Melee to Long Range, Melee to Short Range,Melee to Defense"
+            },
+            "Close Combat": {
+                "level1": "Long Cut and Wide Cut",
+                "level2": "Spin Cut",
+                "level3": "Stab (sword inflict bleeding) and Life cut",
+                "level4": "Shock Wave",
+                "level5": "Wide Wave and Great Spin",
+                "omega": "Storm of Blades (Spin Cut inflict bleeding)"
+            },
+            "Dexterity": {
+                "level1": "Aim- draw an extra card and choose highest",
+                "level2": "Aim to Status Shot (3 turns buff/ Debuff)",
+                "level3": "$+1$ hand (passive)",
+                "level4": "Aim to Power Shot (2 damage)",
+                "level5": "Aim to Trick Shot - do a close combat attack after arc shot",
+                "omega": "On Joker ignore armor"
+            },
+            "Light Combat": {
+                "level1": "\"Quick Attack\" +1 initiative next turn",
+                "level2": "Move as an immediate action",
+                "level3": "\"Stab\" inflict bleeding",
+                "level4": "\"Throw Knife\" allows long range attack",
+                "level5": "ignore abilities of targets allies during this attack",
+                "omega": "Unit may attack an adjacent foe once per round as a free action"
+            },
+            "Long Range": {
+                "level1": "Bow shot (target a line; hit line of sight; range 5 squares orthogonal) and Arc Shot (target one tile up to 3 spaces away from user)",
+                "level2": "Modify hitbox on bow shot V shot and wide shot and Shotgun Spread (triangle of height 2)",
+                "level3": "Focus (Status; Duration 2; increase range of long range by 2)",
+                "level4": "Spreader Shot",
+                "level5": "Barrage 2 (fire two shots; -5 modifier to both shots)",
+                "omega": "Use two abilities from this tree in one move at -8 modifier each"
+            },
+            "Melee": {
+                "level1": "Punch (short sword + knockback) and Kick (wide)",
+                "level2": "Grab - pulls a player from unto 2 panels away to player",
+                "level3": "(Throws may be used in the same action as grab) Far throw (knockback 2) and High Throw (paralyze)Down Throw(damage)",
+                "level4": "Combo Strike(2 abilities from melee)+3 knock back for far throw",
+                "level5": "Combo Strike (3 abilities from melee,-5 to hit for each attack in chain)",
+                "omega": "passive ends the turn immediately when this player is attacked even if during a chain attack"
+            },
+            "Overdrive": {
+                "level1": "Berserk Mode +5 modifiers for 3 turns; then,take 1 damage",
+                "level2": "passive deal a Critical Hit for Two J+ in addition to a joker",
+                "level3": "Super Mode- charge for 1 turn then +5 modifier for 3 turns",
+                "level4": "Finisher (do +1 damage to foes with Debuffs)",
+                "level5": "Charge for 5 turns; Activate Final Form (Max Attributes; if damage $>1$,damage $-1$)",
+                "omega": "All attacks are Critical Hits when the hero is at 1hp"
+            }
+        }
+    },
+    "Defense": {
+        "section_header": "",
+		"elemental": {
+			"description": "",
+			"Abandon": "",
+			"Earth": "",
+			"Justice": "",
+			"Life": "",
+			"Sea": "",
+			"Sky": ""
+		},
+		"tree_omega": "",
+        "skills": {
+            "Aura": {
+                "level1": "Create a single use defensive Aura of 2lv/2lv",
+                "level2": "Create a single use short weapon Aura of 2lv/2lv",
+                "level3": "Create a single use long weapon Aura of 2lv/2lv",
+                "level4": "Change aura elemental affinity (effects items made of aura)",
+                "level5": "Charge Aura - durability of aura weapons $+1$ use per charge",
+                "omega": "Charging aura also gains $+1/+1$ to aura strengths (cap 5)"
+            },
+            "Counter": {
+                "level1": "Status Counter if less for close combat",
+                "level2": "Status Counter if less for long range",
+                "level3": "Status Counter if less for Special or Defense",
+                "level4": "Status Counter with \"if then\" instead of less",
+                "level5": "Status Counter with if more instead of less",
+                "omega": "Counters 2 actions instead of 1"
+            },
+            "Disarm": {
+                "level1": "Remove Traps",
+                "level2": "Remove Equipment",
+                "level3": "Prevent Use of 1 hand for 3 turns",
+                "level4": "Remove Weapons",
+                "level5": "Prevent use of 1 defensive equipment slot for 3 turns",
+                "omega": "Remove all equipment except weapons"
+            },
+            "Immunity": {
+                "level1": "avoid terrain effect",
+                "level2": "status that causes debuffs to click down 2x fast",
+                "level3": "status that causes +1 to the duration of a different status",
+                "level4": "clear a status with 1 duration to inflict status prevent identical status for 3 turns",
+                "level5": "Purge - clear all statuses from user",
+                "omega": "Statuses that target adjacent foes and allies now target user instead"
+            },
+            "Perception": {
+                "level1": "Passive: See Traps",
+                "level2": "Passive: See +2 fog of war sight",
+                "level3": "See Skills and Abilities",
+                "level4": "Alertness - Status(5) See Stealth (stealth status -1)",
+                "level5": "Alertness gains Intent (pre-flex once per battle)",
+                "omega": "Alertness gains - Stealth -2,Pre-flex twice"
+            },
+            "Precision": {
+                "level1": "Pick Locks",
+                "level2": "Steal equipped items",
+                "level3": "create decoy [follow pacifist AI]",
+                "level4": "+5 to all flanking bonuses",
+                "level5": "Create Shadow Clone [duplicates actions of main]",
+                "omega": "create 2 shadow clone"
+            },
+            "Shield": {
+                "level1": "Block - protects user",
+                "level2": "Block: protects user (passive)",
+                "level3": "Cover Ally - protects targeted adjacent ally with shield",
+                "level4": "Cover Allies - Protects all adjacent allies",
+                "level5": "Cover all - Protects all adjacent allies (passive; optional; pre-flex)",
+                "omega": "Replace all references in shield to \"adjacent\" with up to 2 spaces away"
+            },
+            "Stealth": {
+                "level1": "Avoid Sight: can be seen only when adjacent until action (Status duration 3)",
+                "level2": "Surprise - Do max flank when coming out of stealth",
+                "level3": "Avoid Sight 2 - cannot be seen until action taken (Status duration 3)",
+                "level4": "Steal: Take a non-equipped item from target when coming out of stealth",
+                "level5": "passive When hidden,Inflict bleeding on attack",
+                "omega": "Reflex - when hidden,draw to avoid hit on K+"
+            }
+        }
+    },
+    "Drifting": {
+        "section_header": "Drifting abilities may only be used on portals.",
+		"elemental": {
+			"description": "",
+			"Abandon": "",
+			"Earth": "",
+			"Justice": "",
+			"Life": "",
+			"Sea": "",
+			"Sky": ""
+		},
+		"tree_omega": "",
+        "skills": {
+            "Arcane": {
+                "level1": "Portal heal environment or self at 3:1 environment:self ratio",
+                "level2": "can now target allies",
+                "level3": "Expand Portal",
+                "level4": "can now target foes",
+                "level5": "Gaia's link: target transfers will to environment each round or visa versa",
+                "omega": "Abilites in this tree are now range 2"
+            },
+            "Ancient": {
+                "level1": "Portal (+1 power level but user can only use default abilities)",
+                "level2": "Player may use skills instead of default abilities",
+                "level3": "+2 Power Level",
+                "level4": "Expand Portal",
+                "level5": "Follow Portal",
+                "omega": "+3 Power Level"
+            },
+            "Cyber": {
+                "level1": "create portal(user may place/dispel a block adjacent to portal) users with cyber drifting may attack through block",
+                "level2": "user may knockback a block when on a portal",
+                "level3": "user may create a line of blocks from the portal to a existing block",
+                "level4": "user may move to any space adjacent to a set of adjacent blocks to which he is adjacent",
+                "level5": "User transforms block to copy next attack",
+                "omega": "User chain transforms blocks to copy next attack"
+            },
+            "Dark": {
+                "level1": "Portal takes will from adjacent allies for a buff of +1 to action uncapped per will taken duration 2",
+                "level2": "Expand Portal",
+                "level3": "Take will from allies to heal the environment",
+                "level4": "Corrupt World - drifters without dark drifting take 1 damage while drifting",
+                "level5": "Hits do 2 damage but deal 1 damage recoil",
+                "omega": "Player can continue to attack as long as they can target a new unit"
+            },
+            "Dream": {
+                "level1": "Portal (Prevent 1 debuff from having affect)",
+                "level2": "Target gains debuff on card bonus",
+                "level3": "Prevent critical hits on target",
+                "level4": "Expand Portal",
+                "level5": "For target, treat 3's as a -2",
+                "omega": "Target suffers 2 damage/hit"
+            },
+            "Kinetic": {
+                "level1": "Portal + lv to attack value",
+                "level2": "Disables (Force Repair; Force Manaburn; -3 duration ancients)",
+                "level3": "Beam (seeks to hit target)",
+                "level4": "Follow Portal",
+                "level5": "\"jump\" over foes from portals",
+                "omega": "Spirit Blast - Wait n turns; deals n damage to n radius panels from user; if attacked during wait reset n to 0"
+            },
+            "Space": {
+                "level1": "portal allows transport between 2 portals",
+                "level2": "User may exit up to lv away (1 mp)",
+                "level3": "Open Portal at distance (1mp)",
+                "level4": "Force enemy to enter portal(1mp)",
+                "level5": "Transport all allied units adjacent to portal(2mp)",
+                "omega": "Force all enemy units to enter adjacent to portal(2mp)"
+            },
+            "Time": {
+                "level1": "Portal (+1 initiative)",
+                "level2": "move target character up or down one position in initiative.",
+                "level3": "Enlarge Portal",
+                "level4": "Stop (Caster and target cannot act next round)",
+                "level5": "Quicken -Target gains an additional action at the end of the turn order.",
+                "omega": "Quicken Party - allies gain an additional action"
+            }
+        }
+    },
+    "Knowledge": {
+        "section_header": "\\subsection{General Knowledge} For each knowledge skill that a character has, they gain the following abilities \\\\ \\begin{tabularx}{\\textwidth}{l X} \\textbf{2 Skills:} & + 1 lv to any knowledge skill (only one skill may be boosted at a time)\\\\ \\textbf{3 Skills:} & Unlock Further Knowledge\\\\ \\textbf{4 Skills:} & Unlock Greater Knowledge\\\\ \\end{tabularx}",
+		"elemental": {
+			"description": "Knowledge has no elemental specialty, but instead has greater and further knowledge"
+		},
+		"tree_omega": "Insight : target a foe at beginning of battle; all attacks by this hero deal +1 damage to that foe",
+        "skills": {
+            "Battle": {
+                "further": "Formation may use any ability of members",
+                "greater": "+3 Forces Cap (Limit 2 units may use this per side)",
+                "level1": "Take Command - +1 power level for squad limit 1 per squad",
+                "level2": "Passive Take Command",
+                "level3": "If the hero is in command of a squad, the hero may take an additional action apart from the squad",
+                "level4": "Supply Drop",
+                "level5": "Forces Drop",
+                "omega": "None"
+            },
+            "Charisma": {
+                "further": "Reinforce Ally (All allies get +2 modifier); Order Ally (Creates an ally that acts under AI for 3 turns)",
+                "greater": "Double Soul (Combine with an adjacent ally into a single unit with total skill +1; if skill lv>5 then grant $\\Omega$ skill)",
+                "level1": "Call Ally lv 1(quicken an ally to move next)",
+                "level2": "Convert Neutral Character (Requires 3 successful attempts w/o interference)",
+                "level3": "Tag Ally (Switch places with out of battle ally for 3 turns,All effects and damage done to this ally transfer to Hero after 3 turns)",
+                "level4": "Call Ally lv2 (Preform a single action of an out of battle character)",
+                "level5": "Convert Foe (Requires 3 successful attempts w/o interference)",
+                "omega": "None"
+            },
+            "Historic": {
+                "further": "Map updates",
+                "greater": "terraforming: add 2 features to map before battle; Amongst multiple historic users, resolve in initiative order; Limit 5 extra features per map amongst all historic users.",
+                "level1": "Decrease the duration of an ancient status by 1",
+                "level2": "Multilingual,Basic Map w/o fog of war",
+                "level3": "Map with Positions of all characters",
+                "level4": "Change into an ancients status (use historic lv + the specific ancients lv ) for 2 turn; cool down 1 turn",
+                "level5": "Ancient Languages,Path finding: add 1 feature to map before battle; Amongst multiple historic users, resolve in initiative order; Limit of 5 extra features per map amongst all historic users..",
+                "omega": "None"
+            },
+            "Magic": {
+                "further": "All Adverbs",
+                "greater": "Stop Magic and counter with same spell without cost",
+                "level1": "\"Throw\" Verb; \"Bolt\" noun",
+                "level2": "\"Block\" noun; \"Place\" Verb",
+                "level3": "All Verbs",
+                "level4": "All Nouns - First level magics",
+                "level5": "reflex : Stop Any Magic",
+                "omega": "None"
+            },
+            "Medical": {
+                "further": "Immunizations (prevent Debuff of a given type)",
+                "greater": "Wonder Cure - inflict status that once per battle revive to full from KO",
+                "level1": "First Aid: heal 1 hp",
+                "level2": "Clear One Status",
+                "level3": "Surgery (Heal 3hp or Clear All status with 2 turn recharge)",
+                "level4": "Pharmacology (2 turn buff/debuff including HP)",
+                "level5": "Improved Pharmacology (4 turn buff/debuff including HP)",
+                "omega": "None"
+            },
+            "Naturalistic": {
+                "further": "Order Three Creatures",
+                "greater": "Inflict Fog of War on target",
+                "level1": "Passive aquire items from panels and foes",
+                "level2": "Neutral Creatures",
+                "level3": "Track- ignore fog of war for last unit attacked",
+                "level4": "Order One Creature",
+                "level5": "Take Cover - AOEs that hit 1+ character do not hit this charcter",
+                "omega": "None"
+            },
+            "Piloting": {
+                "further": "Preform level one portal actions on a portal",
+                "greater": "Set Course - pick the next 3 actions and preform all actions first; use inituative to break ties",
+                "level1": "Pilot - Squads containing this unit may move before or after a normal action",
+                "level2": "Passive Pilot",
+                "level3": "passive +5 inituative when in squad",
+                "level4": "When attacked unit may move +1 pannel",
+                "level5": "Ignore objects on the field",
+                "omega": "None"
+            },
+            "Technical": {
+                "further": "Level Further: Engineering lv1 and lv2",
+                "greater": "Engineering lv3 and lv 4",
+                "level1": "Salvage - combine items that have material cost $\\leq 3$ into 3 Material (1 material)",
+                "level2": "Repair - status length 3, allow the mechanics abilties despite will limits",
+                "level3": "Create tower that prevents skills being used from a specified skill tree for adjacent heros. Towers have will 2.",
+                "level4": "Level 1 Mechanics abilities",
+                "level5": "Charge 1; Gain status duration 1; that grants preflex change target of an action of another hero.",
+                "omega": "None"
+            }
+        }
+    },
+    "Magic": {
+        "section_header": "Magic works using the difficulty system. When a character uses a magic ability, they draw 2 cards. The first card is the card bonus for the action. The second card determines whether or not the caster will suffer manna burn. This is determined by using the difficulty of the action. If the rank of the second card is greater than or equal to the difficulty of the action, then the user suffers no manna burn; else, the user will suffer 1 damage as manna burn. Each level that a character has in a given skill reduces the difficulty of using abilities in that skill by their skill level. For example, a character with Cast 4 who is using an ability with a difficulty of 12 from the Cast skill would need a 8 or better to succeed. However if the same character attempted to use a Heal ability, He would have to get a Queen or better to succeed. Abilities that have enhanced manna burn will suffer the ceiling of ceiling (cost/5) damage. For example the same mage casting the 12-difficulty spell except it dealt enhanced manna damage,the manna burn would be 3 damage.",
+		"elemental": {
+			"description": "Magics special casts are are a system of additional spells that may be used by the characters",
+			"Abandon": [
+				{ 
+					"Ability": "Prevents KO from having an effect for 3 turns ",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "Change condition to all prohibitive except user",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "Target deals damage x2 but suffers Â½ damage as recoil ",
+					"Difficulty": "19"
+				},
+				{
+					"Ability": "Creates skill number characters from target character each with 1 different skill from target character ",
+					"Difficulty": "19"
+				}
+			],
+			"Earth": [
+				{ 
+					"Ability": "Create vines that move out at beginning of turn dealing 1 damage to targets in path",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "Prevent all damage and forbids move; Each time this is used successively manna burn deals turns +1 damage ",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "Requires full HP\\@. If manna burn: user takes 1 damage. If no manna burn: target suffers User Will. +2 damage and User now has 0 Will.",
+					"Difficulty": "20"
+				},
+				{
+					"Ability": "Target characters are now in double soul state for 3 turns ",
+					"Difficulty": "19"
+				}
+			],
+			"Justice": [
+				{ 
+					"Ability": "Target gains Move Type: Teleport for 3 turns",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "Change condition to all permissive ",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "KO caster and revive all allies; Fails if manna burn",
+					"Difficulty": "20"
+				},
+				{
+					"Ability": "Draw a card for each character (friend and foe) and KO all that receive a black card; Fails if manna burn",
+					"Difficulty": "20"
+				}
+			],
+			"Life": [
+				{ 
+					"Ability": "Heal 3 to target",
+					"Difficulty": "15"
+				},
+				{
+					"Ability": " Deal 1 Damage and inflict Bleeding to target",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "Revive target to 1 hp and prevent damage until targets next turn ",
+					"Difficulty": "19"
+				},
+				{
+					"Ability": "Clones targets character's equipment as a drone ",
+					"Difficulty": "19"
+				}
+			],
+			"Sea": [
+				{ 
+					"Ability": "Weapons gain all attribute types for 3 turns ",
+					"Difficulty": "15"
+				},
+				{
+					"Ability": "Creates unbreakable block ",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "Upgrade equipment by 1 level for 3 turns. Refined alloy remains at boosted level ",
+					"Difficulty": "19"
+				},
+				{
+					"Ability": "Change all panels with in a ring 2 units wide to the same type of the casters choice ",
+					"Difficulty": "19"
+				}
+			],
+			"Sky": [
+				{ 
+					"Ability": "Move target to any panel ",
+					"Difficulty": "15"
+				},
+				{
+					"Ability": "Move 3 and evade all counter attacks ",
+					"Difficulty": "15"
+				},
+				{
+					"Ability": "Chain lightning ",
+					"Difficulty": "17"
+				},
+				{
+					"Ability": "Allows Target character to take their action next ",
+					"Difficulty": "19"
+				}
+			]
+		},
+		"tree_omega": { 
+			"Ability": "Randomly Inflicts 1 law for a chosen bonus ",
+			"Difficulty": "15"
+		},
+        "skills": {
+            "Cast": {
+                "level1": "Bolt line of sight range 3 (9 difficulty),Block (9 difficulty)",
+                "level2": "Sky Bolts range 5 (10 difficulty),Elemental Specialty [grants special cast and -1 difficulty for the element; only one element may be specialized at a time]",
+                "level3": "Blast AOE 1 range 3(11 difficulty) Empower magic [-1 difficulty for next cast; deductions stack i.e.3 uses yields a -3 difficulty for next cast]",
+                "level4": "Wave (12 difficulty),Storm (12 difficulty)",
+                "level5": "Gain Second Special Elemental Specaility",
+                "omega": "Difficulty -2 for Cast abilities"
+            },
+            "Geomancy": {
+                "level1": "Move Panel new location (10 difficulty)",
+                "level2": "Change panel type (11 difficulty)",
+                "level3": "Change 3x3 area to panel type (12 difficulty)",
+                "level4": "Change Conditions (13 difficulty)",
+                "level5": "Release Panel Effect - trigger panel effects as an action (14 difficulty)",
+                "omega": "Difficulty -2 for Geomancy]"
+            },
+            "Heal": {
+                "level1": "Heal 1 (difficulty 8)",
+                "level2": "Take Energy from magic from environment,Status heal (difficulty 9)",
+                "level3": "Take Energy from ally or neutral unit",
+                "level4": "Take Energy from foe,Cast 2 heal actions in one turn (+2 difficulty)",
+                "level5": "Revive from KO (difficulty 14),Cast 3 heal actions in one turn (+3 difficulty)",
+                "omega": "Difficulty -2 for Heal"
+            },
+            "Illusion": {
+                "level1": "\"Shadow Self\" create shadow clone that can only move (difficulty 9)",
+                "level2": "\"Shadow Evade\" exchange places with shadow clone (difficulty 11)",
+                "level3": "\"Shadow Terrain\" create terain that affects foes, but not allies duration 3 (difficulty 12)",
+                "level4": "\"Shadow Attack\" Shadow clone can now attack instead of hero (difficulty 12)",
+                "level5": "\"Shadow Disapear\" status 1; preflex, create shadow clone on hit. (difficulty 14)",
+                "omega": "Difficulty -2 for illusion"
+            },
+            "Mind": {
+                "level1": "passive share fog of war sight,communicate w/o line of sight",
+                "level2": "Inflict Knock back (11 Difficulty each)",
+                "level3": "Status 1; Preflex (Difficulty 15)",
+                "level4": "Mind Wipe (ban use of all abilities from a skill for 3 duration; difficulty 13)",
+                "level5": "Mind Control (chose one of next 5 actions,difficulty 14)",
+                "omega": "Difficulty -2 for Mind"
+            },
+            "Shape-Shifting": {
+                "level1": "Change elemental affiliation (difficulty 10)",
+                "level2": "Change race (11 difficulty)",
+                "level3": "Acquire additional racial area (Difficulty 12)",
+                "level4": "Acquire additional Racial Skill (Difficulty 13)",
+                "level5": "Acquire 3rd Racial Skill (Difficulty 14)",
+                "omega": "Difficulty -2 for Shape-Shifting"
+            },
+            "Status": {
+                "level1": "Buff/Debuff 1 point any stat except will duration 3 (Difficulty 10)",
+                "level2": "Remove Status (11 Difficulty)",
+                "level3": "Recurring Buff /Debuff 1 point duration 3 (Difficulty 12)",
+                "level4": "Increase Duration by 1 (+3 each)",
+                "level5": "Increase Intensity by 1 (+4 each)",
+                "omega": "Difficulty -2 for Status"
+            },
+            "Summon": {
+                "level1": "Summon creature worth 3 points (10 difficulty),order creature",
+                "level2": "Summon creature worth 5 points (11 difficulty)",
+                "level3": "Summon creature worth 10 points (12 difficulty),sustain creature (+1 each turn sustained past 2)",
+                "level4": "Summon creature worth 15 points (13 difficulty)",
+                "level5": "Summon creature worth 20 points (14 difficulty),move while summoning",
+                "omega": "Difficulty -2 for Summon"
+            }
+        }
+    },
+    "Material": {
+		"elemental": {
+			"description": "Hero may add an advancement to a weapon for 15 Material",
+			"Abandon": "$+ 1$ to the card bonus ($card\\, \\geq15$ then the card is treated as a joker)",
+			"Earth": "$+5$ to the attack stat",
+			"Justice": "$+1$ lv to all skills equipped to this weapon; If the skill is level 5, grant the omega skill",
+			"Life": "Gives the user $+1$ Will",
+			"Sea": "Weapon gains and additional type attribute (short/long/melee/defense) or a second elemental affinity",
+			"Sky": "$+3$ to all initiative draws"
+		},
+		"tree_omega": "",
+		"section_header": "This tree is focused on making an using items, equipment, and gear",
+        "skills": {
+            "Alchemy": {
+                "level1": "Enchant Element (1 Material)",
+                "level2": "Create item that passes manaburn to target ally (6 Material)",
+                "level3": "Enchant Ability from Skill lv1 (3 Material),Increase Skill level of enchanted ability by 1 level (+2 material each level; cannot exceed material grade - 2)",
+                "level4": "Enchant Ability Skill lv 1 (6 Material), Increase skill level of enchanted skill by 1 level (+3 material each level; cannot exceed material grade -2)",
+                "level5": "Create item that forces attack to Succeed at 2 times manna burn, minimum 2. Multipart attacks such as barrage require 1 item per attack. (10 Material)",
+                "omega": "Alchemy costs - 1"
+            },
+            "Crafting": {
+                "level1": "Create an equipment of material grade 1 or 2 for 1 or 3 Material respectively",
+                "level2": "Improve a weapon material grade by 1 for 3 turns (1 material)",
+                "level3": "Create an equipment of material grade 3 or 4 for 6 or 10 Material respectively",
+                "level4": "Improve a equipment material grade by 1 for 3 turns (3 material)",
+                "level5": "Create an equipment of material grade 5 for 15 Material",
+                "omega": "User can craft legendary weapons"
+            },
+            "Gear": {
+                "level1": "Create level 1 gear (2 Material). Gain first gear type.",
+                "level2": "create an item that allows repair as an immediate action (1 Material); Create level 2 gear (6 Material)",
+                "level3": "Create level 3 gear (12 Material) Gain second gear type.",
+                "level4": "Create level 4 gear (20 Material)",
+                "level5": "Create level 5 gear (30 Material) Gain final gear type.",
+                "omega": "Create the Final gear (30 Material)"
+            },
+            "Masks": {
+                "level1": "Create an item that reduces ancients cool down by 1 (1 Material)",
+                "level2": "Convert a skill into a mask that can be equipped as an armor slot which imparts the skills to the wearer (3 Material).",
+                "level3": "Create an item that grants ability to use legendary weapons for 3 duration (1 Material)",
+                "level4": "Create an item allows activating ancients status for -1 duration as an immediate action",
+                "level5": "Convert upto 3 status (not cool down) into a mask that when used applies those status to the target hero.",
+                "omega": "Activate all ancients skills as an immediate action for -1 duration each (3 Material)"
+            },
+            "Merchant": {
+                "level1": "Decrease material cost for items by 1",
+                "level2": "Decrease equipment cost by 1",
+                "level3": "Decrease material cost for items by 2",
+                "level4": "Decrease equipment cost by 2",
+                "level5": "Decrease material cost for items by 3",
+                "omega": "Decrease equipment cost by 3"
+            },
+            "Resonance": {
+                "level1": "Add ignore line of sight to hero's next action (1 Material)",
+                "level2": "Convert item to material for value - 3.",
+                "level3": "Ignore 3 status effects for 1 turn (1 Material)",
+                "level4": "Heal 3 (1 Material)",
+                "level5": "Charge 1; Add ignore armor effect to hero's next action (3 Material)",
+                "omega": "Add drain to next action (1 Material)"
+            },
+            "Sealing": {
+                "level1": "\"Unbind\" Remove a seal from a portal",
+                "level2": "\"Binding\" Place a seal on target portal that prevents it from being used by drifters for duration 3 (1 Material)",
+                "level3": "Prevent target hero's actions for 1 round (3 Material)",
+                "level4": "\"Seal\" Decrease target's power level by 1 duration 3 (10 Material)",
+                "level5": "Prevent target hero's actions for 3 rounds (6 Material)",
+                "omega": "Prevent all actions on and by target as long as they have power level 0 except seal(15 Material); Seal is not affected by status stack limits"
+            },
+            "Trap": {
+                "level1": "Lay Trap item that inflicts status (1 Material)",
+                "level2": "Lay Trap item that does damage to target (1 Material)",
+                "level3": "Lay trap item that hits target and adjacent for status (3 Material)",
+                "level4": "Lay trap item that hits target and adjacent for damage (3 Material)",
+                "level5": "Lay trap item to convert neutral unit (1 Material)",
+                "omega": "Throw trap up to 3 panels away"
+            }
+        }
+    },
+    "Mechanics": {
+        "section_header": "\\textit{Abilities in this tree may not be used if the user is below 1/3 full will.}",
+		"elemental": {
+			"description": "",
+			"Abandon": "",
+			"Earth": "",
+			"Justice": "",
+			"Life": "",
+			"Sea": "",
+			"Sky": ""
+		},
+		"tree_omega": "",
+        "skills": {
+            "AI": {
+                "level1": "Memory 2; Learn Ability (2 Memory)",
+                "level2": "Memory 4; Learn Skill (4 Memory)",
+                "level3": "Memory 6; Learn Weapon (6 Memory)",
+                "level4": "Memory 8; Improve Skill 1 level (3 Memory each)",
+                "level5": "Memory 10",
+                "omega": "Memory 16"
+            },
+            "Drones": {
+                "level1": "Hero generates lv dones per turn passive. Treat unused drones as an item. Create drone that blocks movement for 1 drone. Drones movement can be any specified AI pattern, but all move with the same AI pattern.",
+                "level2": "Create drone that does short range attacks for 3 drones.",
+                "level3": "Create drone that does long range attacks for 6 drones",
+                "level4": "Add capacity to ignore teriain to a drone for 10 drones",
+                "level5": "Create Command Drone that may be assigned custom actions each turn for 15 drones",
+                "omega": "Create Drone that may use the heros mechanics abilities for 21 drones"
+            },
+            "Engine": {
+                "level1": "Shift 1(move one attribute point from attack,defense,or speed to attack,defense,or speed);",
+                "level2": "Shift 2",
+                "level3": "Shift 3; shift movement type (ignore panel type)",
+                "level4": "Shift 4",
+                "level5": "Shift 5",
+                "omega": "Teleport (uses 3 shifts to move in all remaining actions to a specific part of a round)"
+            },
+            "Extension": {
+                "level1": "+1 extensions; use one extension to increase Attack,Defense,or Speed; buff removed when user cannot use Extension",
+                "level2": "+1 extensions",
+                "level3": "+1 extensions; +1 hand for 3 extensions",
+                "level4": "+1 extensions",
+                "level5": "+1 extensions; +1 durability for all extensions for 2 parts",
+                "omega": "for 2 extensions,+1 attack,defense,and speed"
+            },
+            "Fields": {
+                "level1": "field radius 1; buff 1 attack,defense,or speed.",
+                "level2": "debuff 1 foe's attack,defense,or speed",
+                "level3": "recurring buff (3,1,HP); negate conditions",
+                "level4": "debuffs recurring foe's HP",
+                "level5": "field radius 2",
+                "omega": "increase magnitude of effect by 1 unit"
+            },
+            "Infection": {
+                "level1": "Deal 1 damage and heal 1 hp",
+                "level2": "Deal 1 damage and inflict recurring debuff (3,1,HP)",
+                "level3": "Deal 1 damage and control foe's next action",
+                "level4": "Deal 1 damage and control foe until he or she is attacked",
+                "level5": "Deal 1 damage and exchange a skill with foe.",
+                "omega": "Deal 3 damage after next round if user and target are adjacent"
+            },
+            "Transform": {
+                "level1": "Change element (takes 1 turn)",
+                "level2": "Change Weapon (takes 2 turns)",
+                "level3": "Change Armor/Foot/Helm (takes 2 turns)",
+                "level4": "Speed up changes (-1 turns)",
+                "level5": "Change skills (takes 4 turns; cannot be used to replace Transform)",
+                "omega": "Speed up changes (-1 turns)"
+            }
+        }
+    },
+    "Basic": {
+		"section_header": "\\textbf{Defaulting:} Use an basic action with -5 modifier\\\\ \\textbf{Basic Attack :} range 1 \\\\ \\textbf{Basic Long Range Attack :} range 2 not 1; additional -3 modifier\\\\ \\textbf{Move: } move 1 space; failless\\\\"
+	}
+}
