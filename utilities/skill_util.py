@@ -177,7 +177,7 @@ def convert_skills_knowledge(desc):
         tex += '\\textbf{{Level 5:}}& {level5} \\\\\n'.format(level5=desc[skill]['level5'])
         tex += '\\textbf{{Level $\\Omega$:}}& {level_omega} \\\\\n'\
                 .format(level_omega=desc[skill]['omega'])
-        tex += '\\textbf{{Further :}}& {further} \\\\\n'.format(further=desc[skill]['greater'])
+        tex += '\\textbf{{Further :}}& {further} \\\\\n'.format(further=desc[skill]['further'])
         tex += '\\textbf{{Greater :}}& {greater} \\\\\n'.format(greater=desc[skill]['greater'])
         tex += '\\end{tabularx}\n'
         tex += '\\ignorespacesafterend\n\n'

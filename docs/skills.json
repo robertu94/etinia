@@ -56,9 +56,9 @@
                 "level1": "Undead - Prevent KO status(Duration lv+2/Cool 5)",
                 "level2": "Scream - paralyze adjacent foes for 1 turn(2 duration)",
                 "level3": "Blood Call - buff +1 to strengh adjacent allies(2 duration)",
-                "level4": "Status for every will < 0; strength + 1",
+                "level4": "Status for every will $< 0$; strength $+ 1$",
                 "level5": "Infect - On hit +4 duration to ancients or + 1 will (3 duration)",
-                "omega": "+1 power level when KO character; curve stomp"
+                "omega": "+1 power level when KO character; Prevent character being healed from KO"
             },
             "Hydra": {
                 "level1": "Enable SeaStorm (Duration lv+2/ Cool 5) Will cap (+lv)",
@@ -133,7 +133,7 @@
             },
             "Melee": {
                 "level1": "Punch (short sword + knockback) and Kick (wide)",
-                "level2": "Grab - pulls a player from unto 2 panels away to player",
+                "level2": "Grab - pulls a player from upto 2 panels away to player",
                 "level3": "(Throws may be used in the same action as grab) Far throw (knockback 2) and High Throw (paralyze)Down Throw(damage)",
                 "level4": "Combo Strike(2 abilities from melee)+3 knock back for far throw",
                 "level5": "Combo Strike (3 abilities from melee,-5 to hit for each attack in chain)",
@@ -171,6 +171,7 @@
                 "omega": "Charging aura also gains $+1/+1$ to aura strengths (cap 5)"
             },
             "Counter": {
+				"description": "Counter adds a status called counter that allows a reflex action when triggered.",
                 "level1": "Status Counter if less for close combat",
                 "level2": "Status Counter if less for long range",
                 "level3": "Status Counter if less for Special or Defense",
@@ -308,7 +309,7 @@
         }
     },
     "Knowledge": {
-        "section_header": "\\subsection{General Knowledge} For each knowledge skill that a character has, they gain the following abilities \\\\ \\begin{tabularx}{\\textwidth}{l X} \\textbf{2 Skills:} & + 1 lv to any knowledge skill (only one skill may be boosted at a time)\\\\ \\textbf{3 Skills:} & Unlock Further Knowledge\\\\ \\textbf{4 Skills:} & Unlock Greater Knowledge\\\\ \\end{tabularx}",
+        "section_header": "\\subsection{General Knowledge} For each knowledge skill that a character has, they gain the following abilities \\\\ \\begin{tabularx}{\\textwidth}{l X} \\textbf{2 Skills:} & + 1 lv to any knowledge skill (only one skill may be boosted at a time)\\\\ \\textbf{3 Skills:} & Gain all Further Knowledge for all skills for which the player has at least level 3 in that skill\\\\ \\textbf{4 Skills:} & Gain all Greater Knowledge skills for which the player has at least level 5 in that skill\\\\ \\end{tabularx}",
 		"elemental": {
 			"description": "Knowledge has no elemental specialty, but instead has greater and further knowledge"
 		},
@@ -390,7 +391,7 @@
                 "level1": "Salvage - combine items that have material cost $\\leq 3$ into 3 Material (1 material)",
                 "level2": "Repair - status length 3, allow the mechanics abilties despite will limits",
                 "level3": "Create tower that prevents skills being used from a specified skill tree for adjacent heros. Towers have will 2.",
-                "level4": "Level 1 Mechanics abilities",
+                "level4": "Level 1 Mechanics abilities if over $\\frac23$ health",
                 "level5": "Charge 1; Gain status duration 1; that grants preflex change target of an action of another hero.",
                 "omega": "None"
             }
