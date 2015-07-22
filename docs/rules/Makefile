@@ -4,6 +4,6 @@ all : skills.tex $(SOURCES)
 clean :
 	latexmk -c
 skills.tex : skills.json
-	../utilities/skill_util.py tex skills.json -o skills.tex
+	../../utilities/skill_util.py tex skills.json -o skills.tex
 	touch 80Page.tex
 
