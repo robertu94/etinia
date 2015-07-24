@@ -230,7 +230,7 @@
         }
     },
     "Drifting": {
-        "section_header": "Drifting abilities may only be used on portals.",
+        "section_header": "Drifting abilities may only be used on portals.  Portals are a special type of panel.  At least one Portal is guaranteed to placed on each map used for battle. For non-drifters portals have no other special effects.",
 		"elemental": {
 			"description": "",
 			"Abandon": "",
@@ -611,11 +611,11 @@
                 "omega": "User can craft legendary weapons"
             },
             "Gear": {
-                "level1": "Create level 1 gear (2 Material). Gain first gear type.",
+                "level1": "Create level 1 gear (2 Material). Gain first body, mind or spirit gear type.",
                 "level2": "create an item that allows repair as an immediate action (1 Material); Create level 2 gear (6 Material)",
-                "level3": "Create level 3 gear (12 Material) Gain second gear type.",
+                "level3": "Create level 3 gear (12 Material) Gain second body, mind or spirit gear type.",
                 "level4": "Create level 4 gear (20 Material)",
-                "level5": "Create level 5 gear (30 Material) Gain final gear type.",
+                "level5": "Create level 5 gear (30 Material) Gain third body, mind or spirit gear type.",
                 "omega": "Create the Final gear (30 Material)"
             },
             "Masks": {
@@ -651,10 +651,10 @@
                 "omega": "Prevent all actions on and by target as long as they have power level 0 except seal(15 Material); Seal is not affected by status stack limits"
             },
             "Trap": {
-                "level1": "Lay Trap item that inflicts status (1 Material)",
-                "level2": "Lay Trap item that does damage to target (1 Material)",
-                "level3": "Lay trap item that hits target and adjacent for status (3 Material)",
-                "level4": "Lay trap item that hits target and adjacent for damage (3 Material)",
+                "level1": "Lay Trap item that inflicts buff/debuff to strength, defenses, or speed status (1 Material)",
+                "level2": "Lay Trap item that does damage to hero standing on trap (1 Material)",
+                "level3": "Lay trap item that hits hero standing on trap and adjacent for status (3 Material)",
+                "level4": "Lay trap item that hits hero standing on trap and adjacent heroes for damage (3 Material)",
                 "level5": "Lay trap item to convert neutral unit (1 Material)",
                 "omega": "Throw trap up to 3 panels away"
             }
