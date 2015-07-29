@@ -77,7 +77,7 @@ def convert_section(desc, treename):
     Default method for converting a section header
     """
     logging.info("parsing with convert section")
-    tex = "\\section{{{section_name}}}\n".format(section_name=treename)
+    tex = "\\section{{{section_name}}}\\index{{{section_name}}}\n".format(section_name=treename)
     if desc['section_header'] != '':
         tex += "{}\\\\\n".format(desc['section_header'])
     if desc['tree_omega'] != '':
@@ -89,7 +89,7 @@ def convert_section_magic(desc, treename):
     Method for converting a section header Magics
     """
     logging.info("parsing with convert section magic")
-    tex = "\\section{{{section_name}}}\n".format(section_name=treename)
+    tex = "\\section{{{section_name}}}\\index{{{section_name}}}\n".format(section_name=treename)
     tex += "{}\\\\\n".format(desc['section_header'])
     tex += "$Tree \\Omega$: {}\n".format(desc['tree_omega'])
     return tex
@@ -144,7 +144,7 @@ def convert_skills(desc):
     tex = ""
     for skill in desc:
         tex += '\\noindent\n'
-        tex += '\\subsection{{{skill_name}}}\n'.format(skill_name=skill)
+        tex += '\\subsection{{{skill_name}}}\\index{{{skill_name}}}\n'.format(skill_name=skill)
         tex += '\\rowcolors{1}{white}{white}\n'
         tex += '\\begin{tabularx}{\\textwidth}{l X}\n'
         tex += '\\textbf{{Level 1:}}& {level1} \\\\\n'.format(level1=desc[skill]['level1'])
@@ -167,7 +167,7 @@ def convert_skills_knowledge(desc):
     tex = ""
     for skill in desc:
         tex += '\\noindent\n'
-        tex += '\\subsection{{{skill_name}}}\n'.format(skill_name=skill)
+        tex += '\\subsection{{{skill_name}}}\\index{{{skill_name}}}\n'.format(skill_name=skill)
         tex += '\\rowcolors{1}{white}{white}\n'
         tex += '\\begin{tabularx}{\\textwidth}{l X}\n'
         tex += '\\textbf{{Level 1:}}& {level1} \\\\\n'.format(level1=desc[skill]['level1'])
