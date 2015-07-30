@@ -142,7 +142,7 @@ def convert_skills(desc):
     """
     logging.info("parsing with convert skills")
     tex = ""
-    for skill in desc:
+    for skill in sorted(desc):
         tex += '\\noindent\n'
         tex += '\\subsection{{{skill_name}}}\\index{{{skill_name}}}\n'.format(skill_name=skill)
         tex += '\\rowcolors{1}{white}{white}\n'
@@ -165,7 +165,7 @@ def convert_skills_knowledge(desc):
     """
     logging.info("parsing with convert skills knowledge")
     tex = ""
-    for skill in desc:
+    for skill in sorted(desc):
         tex += '\\noindent\n'
         tex += '\\subsection{{{skill_name}}}\\index{{{skill_name}}}\n'.format(skill_name=skill)
         tex += '\\rowcolors{1}{white}{white}\n'
